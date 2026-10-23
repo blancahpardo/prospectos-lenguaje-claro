@@ -2,7 +2,7 @@
 
 Autora: Blanca Hernández Pardo (Universidad Pontificia Comillas, Madrid; ORCID [0000-0001-9005-7577](https://orcid.org/0000-0001-9005-7577)).
 
-Materiales del artículo «Errores de contenido en prospectos reescritos en lenguaje claro con modelos generativos abiertos» (en revisión en *Procesamiento del Lenguaje Natural*).
+Materiales del artículo «Errores de contenido en prospectos reescritos en lenguaje claro con modelos generativos abiertos».
 
 ## Contenido
 - `corpus/pasajes.jsonl`: 168 pasajes de las secciones 2, 3 y 4 de 56 prospectos (4 por grupo ATC), con metadatos (n.º de registro, ATC, fecha del prospecto, URL).
