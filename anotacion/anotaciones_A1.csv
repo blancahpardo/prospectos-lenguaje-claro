@@ -1,0 +1,473 @@
+id_salida,categoria,operacion,fragmento_original,fragmento_salida,gravedad,comentario
+S001,DIR,OMI,Deje de tomar pitavastatina y acuda al médico inmediatamente si observa alguno de los siguientes efectos adversos graves,,2,Desaparece la instrucción de suspender y acudir al médico ante efectos graves
+S001,ADD,ADD,,Problemas de riñón. Problemas de piel… Problemas de vagina… (lista repetitiva),2,Inventa decenas de «otros efectos adversos» inexistentes
+S001,NOSIMP,,,,
+S001,DEG,,,,Repetición degenerada hasta el límite de tokens
+S002,NINGUNO,,,,
+S003,TERM,SUS,problemas del ritmo cardiaco,problemas del corazón,1,Hiperónimo
+S003,ENT,SUS,o es posible que considere la posibilidad de controlar los niveles sanguíneos,o que controle los niveles de ese medicamento en la sangre,1,El control pasa del médico al paciente
+S003,MOD-D,SUS,sevelámero debe tomarse a la vez que otro medicamento,Sevelámero se toma junto con otro medicamento,0,
+S004,COND,SUS,tiene una molestia intensa o dolor continuo o empeora el dolor,tiene un dolor fuerte y continuo,1,La disyunción pasa a conjunción y restringe la condición
+S004,TERM,SUS,corticoesteroides sistémicos,otro medicamento llamado corticoesteroide,1,Se pierde «sistémicos»
+S004,TERM,SUS,disección o aneurisma aórticos,un problema grave en una arteria importante,0,Hiperónimo aceptable; se mantiene la instrucción de urgencias
+S005,ADD,ADD,,un poco de picazón,0,
+S005,MOD-E,SUS,esta situación debería desaparecer,suele desaparecer por sí sola,0,
+S005,REG,,,,"Mezcla usted y tú (debes, te preocupa, tu médico)"
+S006,NINGUNO,,,,
+S006,NOSIMP,,,,Copia literal
+S007,ADD,ADD,,es crucial tomar precauciones en días calurosos,0,"Instrucción añadida, coherente con el original"
+S007,TERM,SUS,empezar a usar Kentera,empezar a tomar Kentera,0,Kentera es un parche: «tomar» sugiere vía oral
+S007,ADD,ADD,,Dolor al tragar alimentos,0,
+S008,COND,SUS,en el(los) ojo(s) afectado(s),en el ojo afectado,0,Se pierde la posibilidad de ambos ojos
+S008,TERM,SUS,otros colirios,otros medicamentos para los ojos,0,
+S009,NUM,OMI,40 mg una vez al día,40 mg al día,1,Se pierde la toma única
+S009,TERM,SUS,AINEs (antiinflamatorios no esteroideos),AINEs (medicamentos para el dolor y la inflamación),1,La glosa incluye analgésicos que no son AINE
+S009,TERM,SUS,duodeno,intestino delgado,0,
+S009,MOD-D,SUS,La dosis recomendada es de 20 mg de omeprazol dos veces al día,Debe tomar 20 mg de omeprazol dos veces al día,0,Refuerzo
+S010,TERM,SUS,corticoesteroides sistémicos,corticoesteroides por vía oral,1,Excluye los inyectables
+S010,OMI,OMI,o empeora el dolor,,0,
+S010,REG,,,,Tuteo
+S011,TERM,SUS,"Celulitis, inflamación (edema) e irritación","Inflamación, hinchazón o irritación",1,Se pierde la celulitis (infección)
+S012,NUM,OMI,20 mg de omeprazol dos veces al día durante una semana,20 mg de omeprazol al día durante una semana,2,Se reduce la dosis diaria a la mitad
+S012,ENT,SUS,"dos antibióticos de los siguientes: amoxicilina, claritromicina y metronidazol","dos antibióticos, como amoxicilina, claritromicina o metronidazol",1,La lista cerrada pasa a ser abierta
+S012,NUM,OMI,10 mg o 20 mg una vez al día,10 mg o 20 mg al día,0,
+S013,TERM,SUS,podría necesitar un tratamiento adicional,Puede que necesite otro tratamiento,1,«Otro» admite la lectura de sustitución
+S014,DIR,OMI,"Consulte a su médico o farmacéutico, si tiene dudas",,0,
+S014,COND,SUS,en el(los) ojo(s) afectado(s),en el ojo afectado,0,
+S014,OMI,OMI,Alcarix se administra por vía oftálmica.,,0,
+S015,COND,SUS,divididos equitativamente en tres comidas,dividida en tres tomas durante el día,1,"Se pierde la toma con las comidas, necesaria para la eficacia del quelante"
+S015,REG,,,,Tuteo
+S016,COND,ADD,Su respiración empeora,Tu respiración mejora poco o empeora,0,Amplía la condición
+S016,COND,OMI,se despierta a menudo por la noche,Te despiertas por la noche,0,
+S016,TERM,SUS,podría necesitar un tratamiento adicional,podrías necesitar otro tratamiento,1,
+S016,REG,,,,Tuteo
+S017,NINGUNO,,,,
+S017,NOSIMP,,,,Copia literal
+S018,NINGUNO,,,,
+S018,NOSIMP,,,,Copia literal
+S019,NUM,OMI,"2.575,2 mg de etanol por dosis de 30 ml, lo que equivale a 64 ml de cerveza","10,66% de alcohol, lo que equivale a: 64 ml de cerveza",1,La equivalencia pierde su referencia (por dosis de 30 ml)
+S019,MOD-D,SUS,es perjudicial para personas que padecen alcoholismo,No debe tomar Elixifilin si tiene alcoholismo,0,Refuerzo: pasa a contraindicación
+S019,OMI,OMI,y grupos de alto riesgo,,0,
+S020,ENT,SUS,amaranto (E123),un colorante,1,Se pierde el nombre del alérgeno
+S020,NUM,SUS,equivale a 64 ml de cerveza o 27 ml de vino,similar a la que se encuentra en una cerveza o un vaso de vino pequeño,1,Equivalencia inflada
+S020,MOD-D,SUS,es perjudicial para personas que padecen alcoholismo,"Si tienes problemas con el alcohol, no debes tomar",0,Refuerzo
+S020,ADD,ADD,,es importante que hables con tu médico antes de tomar este medicamento,0,
+S020,TERM,SUS,Puede provocar asma,puede provocar problemas de respiración,0,
+S020,REG,,,,Tuteo
+S021,NINGUNO,,,,
+S021,REG,,,,Tuteo
+S022,COND,SUS,a condición de que sea hasta una hora después de ingerir su comida,siempre y cuando sea antes de una hora de comer,1,Se invierte la ventana temporal (después → antes de comer)
+S022,ADD,ADD,,no se preocupe,0,
+S023,NINGUNO,,,,
+S024,MOD-E,SUS,esta situación debería desaparecer,Esto suele pasar solo por un momento,0,Añade brevedad
+S024,ENT,OMI,o con el médico que trata a su hijo,,0,
+S025,NINGUNO,,,,
+S025,NOSIMP,,,,Copia literal
+S026,MOD-E,SUS,No existen riesgos conocidos,"Según lo que sabemos, ... no parece causar problemas",0,
+S026,OMI,OMI,ya que la exposición sistémica a la clorhexidina es insignificante,,0,
+S027,FREC,OMI,Raros (menos de 1 por cada 1.000 pero más de 1 por cada 10.000 sujetos tratados),Algunos pacientes pueden experimentar,2,Se suprime la categoría; la lista mezcla efectos leves y graves (coma)
+S027,TERM,SUS,estupor,somnolencia profunda,0,
+S028,DIR,OMI,"Si experimenta irritación ocular grave que le provoca que los ojos le lloren excesivamente ... consulte con su médico, farmacéutico o enfermera a la mayor brevedad posible",,2,
+S028,OMI,OMI,Si tiene ojos de color mixto ... es más probable ... puede apreciarse normalmente a los 8 meses ... no progresa una vez que se ha suspendido,,1,
+S028,OMI,OMI,conjuntivitis,,1,Se omite un efecto adverso
+S029,OMI,OMI,Uso externo.,,1,Se pierde la vía de administración
+S029,NOSIMP,,,,Casi copia literal
+S030,COND,SUS,siente dificultad para respirar o tiene “pitos” con la respiración,tiene síntomas de asma o EPOC,0,
+S030,OMI,OMI,ya que podría necesitar un tratamiento adicional,,0,
+S031,COND,SUS,"Puede provocar asma, especialmente en pacientes alérgicos al ácido acetilsalicílico",especialmente si tiene asma y es alérgico al ácido acetilsalicílico,1,El efecto adverso (asma) pasa a ser condición previa
+S031,ENT,OMI,amaranto (E123),,1,Desaparece el alérgeno
+S031,ENT,OMI,de niños y grupos de alto riesgo,,1,Se omiten los niños
+S031,NUM,OMI,"10,66% de etanol ... 2.575,2 mg de etanol por dosis de 30 ml",,1,La equivalencia pierde su referencia
+S031,MOD-D,SUS,es perjudicial para personas que padecen alcoholismo,no debe tomar este medicamento,0,Refuerzo
+S032,MOD-E,SUS,esta situación debería desaparecer,Esta situación debe desaparecer,0,
+S033,NINGUNO,,,,
+S033,NOSIMP,,,,Copia literal
+S034,MOD-D,SUS,Las mujeres lactantes deben evitar usarlo en sus senos,es recomendable evitar aplicarlo en los senos,1,Debilitamiento
+S034,COND,OMI,cree que podría estar embarazada o tiene intención de quedarse embarazada,,0,
+S034,ADD,ADD,,para evitar que el bebé se exponga a pequeñas cantidades del medicamento,0,Justificación no presente en el original
+S034,OMI,OMI,puede utilizarse durante el embarazo o la lactancia,,0,
+S035,TERM,SUS,instrucciones de administración de este medicamento,instrucciones ... para tomar este medicamento,0,Solución cutánea
+S036,TERM,SUS,tiene una glándula tiroides demasiado activa,Tiene problemas con la tiroides,0,
+S036,MOD-E,SUS,Puede ser más probable que tenga este tipo de pensamientos,Es más probable que tenga estos pensamientos,0,
+S037,COND,SUS,Puede provocar asma,Puede empeorar el asma,1,Presupone asma previa
+S037,NUM,OMI,"10,66% de etanol ... 2.575,2 mg",,0,
+S038,MOD-D,SUS,es perjudicial para personas que padecen alcoholismo,No debe tomar este medicamento si tiene alcoholismo,0,Refuerzo
+S038,MOD-E,SUS,El contenido en alcohol debe tenerse en cuenta,El alcohol ... puede ser peligroso,0,
+S039,NUM,SUS,esperar al menos 3 horas,esperar un tiempo (alrededor de 3 horas),1,El mínimo pasa a aproximación
+S039,TERM,SUS,uso prolongado de corticoesteroides,Cortisona durante mucho tiempo,1,Hipónimo: restringe el grupo
+S039,COND,OMI,ha tomado recientemente o pudiera tener que tomar,,0,
+S040,NINGUNO,,,,
+S040,NOSIMP,,,,Copia literal
+S041,FREC,SUS,Raros (menos de 1 por cada 1.000 ...),Efectos muy poco frecuentes (menos de 1 por cada 1.000 ...),0,Etiqueta no normalizada; se conservan las cifras
+S041,TERM,SUS,"confusión, delirio, estupor y coma","confusión, alucinaciones, somnolencia o incluso coma",1,Delirio → alucinaciones: otro síntoma
+S042,TERM,SUS,una vez que se ha suspendido el tratamiento,una vez que dejes de tomar el medicamento,0,Colirio
+S042,REG,,,,Tuteo
+S043,TERM,SUS,previene efectos irritantes en el intestino,protege el estómago y evita irritaciones,0,
+S044,FREC,SUS,Raros (menos de 1 por cada 1.000 pero más de 1 por cada 10.000),Son efectos poco frecuentes (ocurren en menos de 1 de cada 1.000 personas...),1,La etiqueta normalizada cambia de categoría
+S044,TERM,SUS,estupor,somnolencia,0,
+S045,NINGUNO,,,,
+S045,NOSIMP,,,,Copia literal
+S046,NINGUNO,,,,
+S046,REG,,,,Tuteo
+S047,FREC,OMI,Frecuentes (pueden afectar hasta a 1 de cada 10 personas),Algunos pacientes pueden experimentar,2,Se suprime la categoría; incluye daño hepático mortal
+S047,COND,ADD,daño hepático (puede ser mortal),"Daño al hígado, que puede ser mortal si no se trata",1,Añade una condición que atenúa el riesgo
+S047,ADD,ADD,,Problemas de equilibrio; dolor en el abdomen; puede ser grave si no se trata,0,Glosas no presentes en el original
+S048,NINGUNO,,,,
+S048,REG,,,,Tuteo
+S049,OMI,OMI,"Aumento grave de calcio en sangre que puede provocar confusión, delirio, estupor y coma.",,2,Se omite el efecto adverso más grave
+S049,FREC,SUS,Raros,En casos muy poco frecuentes,0,Etiqueta no normalizada; se conservan las cifras
+S049,ADD,ADD,,"Si experimenta picor, consulte a su médico.",0,
+S050,TERM,SUS,antes de empezar a usar Kentera,antes de tomar este medicamento,0,Parche
+S051,NINGUNO,,,,
+S052,NINGUNO,,,,
+S052,NOSIMP,,,,Copia literal
+S053,NINGUNO,,,,
+S054,TERM,SUS,inyectarse usted mismo Methofill bajo la piel,inyectarte Methofill tú mismo en la piel,1,Subcutánea → sobre la piel
+S054,TERM,SUS,El médico al cargo decidirá la duración del tratamiento,cuánto tiempo debes tomar el medicamento,0,Inyectable
+S054,ENT,SUS,El personal sanitario gestante no debe manipular,Las personas que están embarazadas no deben manipular,0,Amplía el alcance
+S054,REG,,,,Tuteo
+S055,NINGUNO,,,,
+S055,NOSIMP,,,,Copia literal
+S056,DIR,OMI,Deje de tomar pitavastatina y acuda al médico inmediatamente si observa alguno de los siguientes efectos adversos graves,,2,
+S056,NOSIMP,,,,Copia literal salvo la omisión
+S057,DIR,SUS,Nunca debe prolongarse el tratamiento sin una reevaluación por su médico.,Nunca deje de tomar la medicación sin consultar a su médico.,2,Se invierte la instrucción: de no prolongar a no suspender
+S057,TERM,SUS,insuficiencia cardíaca,problemas con la sangre que no llega al cuerpo,1,
+S057,OMI,OMI,Se han notificado casos de ... prolongación del intervalo QT,,1,
+S057,DIR,OMI,"En caso de intervención quirúrgica urgente, se debe informar al anestesista",,1,
+S057,NUM,OMI,habitualmente unas dos semanas,,0,
+S058,FREC,SUS,Efectos adversos raros o poco frecuentes,Efectos que ocurren muy raramente,1,La etiqueta rebaja la categoría; se conservan las cifras
+S058,TERM,SUS,desvanecimiento,mareos,1,
+S058,REG,,,,Tuteo
+S059,COND,SUS,"si está tomando, ha tomado recientemente o pudiera tener que tomar cualquier otro medicamento",informe ... sobre los siguientes medicamentos,1,La obligación de informar se restringe a la lista
+S059,COND,SUS,"Hidroxicloroquina puede aumentar el riesgo de crisis epilépticas, sobre todo si se usa con antipalúdicos",Si está tomando medicamentos antipalúdicos ... puede que aumente el riesgo de crisis epilépticas,1,El riesgo pasa a depender de la combinación
+S059,ENT,OMI,infecciones bacterianas,,1,Se omite un grupo de la lista
+S060,COND,OMI,cree que podría estar embarazada o tiene intención de quedarse embarazada,,0,
+S060,MOD-D,SUS,deben evitar usarlo en sus senos,no use Menalmina en sus senos,0,Refuerzo
+S061,FREC,OMI,Raros (...) / Muy raros (...),Efectos adversos:,2,Se suprimen todas las categorías; la lista mezcla efectos leves y graves (coma)
+S062,NINGUNO,,,,
+S062,NOSIMP,,,,Copia literal
+S063,OMI,OMI,Hemorragias en el estómago,,2,Se omite un efecto adverso grave
+S063,COND,SUS,"Si considera que alguno de los siguientes efectos adversos que sufre es grave o persiste unos días, interrumpa","Detenga el uso y consulte a su médico si tiene alguno de estos problemas, incluso si no son graves",1,Se invierte la condición
+S063,FREC,SUS,Otros efectos adversos frecuentes: (hasta 1 de cada 10) / Raros: Inflamación de la piel con ampollas de gran tamaño,Otros efectos secundarios que pueden ocurrir / Muy raros: Inflamación de la piel con ampollas grandes,1,Se pierden las cifras y un efecto raro pasa a muy raro
+S063,TERM,SUS,conjuntivitis,Enrojecimiento o picazón en los ojos,0,
+S064,TERM,SUS,instrucciones de administración,instrucciones ... para tomar este medicamento,0,Solución cutánea
+S065,MOD-E,SUS,podría ajustar la dosis,ajustará la dosis,0,
+S065,REG,,,,Tuteo
+S066,NINGUNO,,,,
+S066,NOSIMP,,,,Copia literal
+S067,ADD,ADD,,(60 ml es aproximadamente un vaso pequeño),0,
+S068,NINGUNO,,,,
+S068,NOSIMP,,,,Copia literal
+S069,TERM,SUS,hemorragia incontrolada,provocar sangrado,1,Se pierde la gravedad
+S070,OMI,OMI,La forma de manipular y eliminar el producto se hará conforme a las directrices de otros preparados citotóxicos de acuerdo con la normativa local.,No manipule ni elimine el producto sin seguir las instrucciones adecuadas.,1,Se pierde el carácter citotóxico
+S070,DIR,OMI,Consulte las instrucciones de uso al final del prospecto.,,0,
+S070,ENT,OMI,"artritis idiopática juvenil, ... artritis psoriásica",,0,
+S071,MOD-E,SUS,El cambio en el color del ojo no progresa,el cambio de color no suele progresar,0,
+S072,NINGUNO,,,,
+S072,NOSIMP,,,,Casi copia literal
+S073,OMI,OMI,(ver sección 3); Ver sección 2 “No tome Lerzam”,,0,Remisiones internas
+S073,NOSIMP,,,,Casi copia literal
+S074,TERM,SUS,tipo y curso de la herida,tipo y gravedad de la herida,0,
+S074,REG,,,,Tuteo parcial
+S075,COND,SUS,suele reaparecer en el mismo lugar o lugares al volver a exponerse al medicamento,puede ocurrir cuando el medicamento entra en contacto con tu piel,1,Se cambia el mecanismo (exantema fijo → contacto) y se pierde la recurrencia
+S075,REG,,,,Tuteo
+S076,NINGUNO,,,,
+S077,NINGUNO,,,,
+S078,NINGUNO,,,,
+S078,NOSIMP,,,,Copia literal
+S079,COND,OMI,"Si estos efectos no se investigan, pueden producir problemas graves",efectos musculares molestos que pueden llevar a problemas graves,0,
+S079,ADD,ADD,,Informe a su médico si experimenta alguno de estos efectos.,0,
+S080,NINGUNO,,,,
+S080,NOSIMP,,,,Copia literal
+S081,FREC,SUS,Frecuentes (pueden afectar hasta a 1 de cada 10 personas),Podría ocurrir lo siguiente (esto puede afectar hasta a 1 de cada 10 personas),0,"Se pierde la etiqueta, no la cifra"
+S082,NINGUNO,,,,
+S082,NOSIMP,,,,Copia literal
+S083,NINGUNO,,,,
+S084,FREC,SUS,Efectos adversos raros (pueden afectar hasta 1 de cada 1000 personas),Efectos muy raros (pueden afectar a menos de 1 de cada 1000 personas),1,La etiqueta rebaja la categoría
+S084,REG,,,,Tuteo
+S085,NINGUNO,,,,
+S086,MOD-D,SUS,no debe superar las 8 - 12 semanas,normalmente no más de 8 a 12 semanas,1,El límite pasa a orientativo
+S086,MOD-D,SUS,Nunca debe prolongarse el tratamiento sin una reevaluación por su médico.,Es fundamental que tu médico te revise regularmente,1,Se pierde la prohibición
+S086,TERM,SUS,piense en hacerse daño a sí mismo o quitarse la vida,tengas pensamientos negativos o incluso pienses en hacerte daño,2,Se elimina la mención del suicidio
+S086,ADD,ADD,nivel alto de potasio,niveles bajos o altos de potasio o magnesio,0,
+S086,REG,,,,Tuteo
+S087,TERM,SUS,desvanecimiento,mareo,1,
+S087,FREC,SUS,raros o poco frecuentes,que ocurren poco frecuentemente,0,Se conservan las cifras
+S088,NINGUNO,,,,
+S088,REG,,,,Tuteo
+S089,NINGUNO,,,,
+S089,NOSIMP,,,,Copia literal
+S090,MOD-D,SUS,En pacientes con infección o alteraciones en la piel en las zonas próximas al punto de inyección (consulte antes),no debe usar este medicamento,0,Refuerzo: pasa a contraindicación
+S090,MOD-D,SUS,No se recomienda utilizar este medicamento con desinfectantes,No use este medicamento con desinfectantes,0,Refuerzo
+S090,ADD,ADD,,su médico debe evaluar la situación antes de usar Hyalgan,0,
+S091,REG,,,,Tuteo con concordancias mezcladas
+S091,COND,SUS,Informe a su médico si:,"Si notas alguno de estos síntomas, debes avisar a tu médico",0,Las condiciones previas se presentan como síntomas
+S092,NINGUNO,,,,
+S092,NOSIMP,,,,Copia literal
+S093,ADD,ADD,,"Si tienes alguna de estas reacciones, deja de tomar el medicamento y habla con tu médico.",1,Instrucción de suspender no presente en el original
+S093,OMI,OMI,suele reaparecer en el mismo lugar o lugares,,0,
+S093,REG,,,,Tuteo
+S094,MOD-D,SUS,No se recomienda utilizar este medicamento con desinfectantes,No use este medicamento con productos para limpiar la piel,0,Refuerzo
+S094,TERM,SUS,inflamación aguda,inflamación reciente (inflamación aguda),0,
+S095,NINGUNO,,,,
+S096,MOD-D,SUS,Este medicamento es perjudicial para personas que padecen alcoholismo.,No es recomendable para personas que sufren de alcoholismo.,1,Debilitamiento
+S097,NINGUNO,,,,
+S098,OMI,OMI,(ver sección 3); Ver sección 2 “No tome Lerzam”,,0,Remisiones internas
+S098,NOSIMP,,,,Casi copia literal
+S099,MOD-D,SUS,En pacientes con infección o alteraciones en la piel (consulte antes),No se debe usar este medicamento si tiene infección,0,Refuerzo
+S099,MOD-D,SUS,No se recomienda utilizar este medicamento con desinfectantes,No use este medicamento con desinfectantes,0,Refuerzo
+S100,FREC,OMI,Frecuencia no conocida (no puede estimarse a partir de los datos disponibles),,1,Se suprime el epígrafe y se mezclan dos categorías
+S100,ADD,ADD,,"Importante: Si experimenta alguno de estos efectos, debe informar a su médico.",0,
+S100,NOSIMP,,,,Casi copia literal
+S101,NUM,OMI,La dosis recomendada en adultos es de 1 comprimido al día,,2,Se omite la dosis
+S101,COND,OMI,"No se recomienda para prevenir la malaria en niños, o en adultos cuyo peso es de menos de 40 kg.",,2,Se omite la restricción por edad y peso
+S102,TERM,SUS,Erupción cutánea (urticaria),Erupción cutánea (una reacción alérgica en la piel),0,
+S103,NINGUNO,,,,
+S103,NOSIMP,,,,Copia literal
+S104,FREC,SUS,Frecuentes (pueden afectar hasta a 1 de cada 10 personas) [toda la lista],Los siguientes son los más comunes: Cáncer de piel (1 de cada 10 personas puede experimentarlo),1,La cifra se asigna solo al primer efecto
+S104,TERM,SUS,deterioro del flujo biliar,problemas con la producción de bilis en el hígado,1,Flujo → producción
+S104,ADD,ADD,,Dolor de cabeza: dolor intenso; aumento de enzimas: un signo de daño en el hígado,0,
+S105,TERM,SUS,aumentan considerablemente la concentración del medicamento en la sangre,el medicamento puede hacer más efecto de lo normal,0,
+S106,TERM,SUS,inyectarse usted mismo Methofill bajo la piel,inyectarte Methofill tú mismo en la piel,1,Subcutánea → sobre la piel
+S106,REG,,,,Tuteo
+S107,NINGUNO,,,,
+S108,COND,SUS,se despierta a menudo por la noche con síntomas de asma,Te despiertas por la noche con dificultad para respirar,0,
+S108,REG,,,,Tuteo
+S109,NINGUNO,,,,
+S109,REG,,,,Tuteo
+S110,TERM,SUS,otros preparados citotóxicos,otros medicamentos peligrosos,0,
+S111,DIR,SUS,acuda inmediatamente a un servicio de urgencias [dolor fuerte y repentino: posible disección aórtica],acuda a un servicio de urgencias o consulte a su médico lo antes posible,2,La urgencia pasa a alternativa con la consulta ordinaria
+S111,OMI,OMI,Es posible que su médico tenga que interrumpir el tratamiento con levofloxacino,,0,
+S112,NINGUNO,,,,
+S113,OMI,OMI,adelgazamiento de la piel (atrofia),,1,Se omite un efecto adverso
+S113,OMI,OMI,(glaucoma); (un corticosteroide),,0,
+S114,MOD-E,SUS,No existen riesgos conocidos con el uso ... durante el embarazo o lactancia,No se sabe si el uso ... representa un riesgo,1,De «sin riesgos conocidos» a «riesgo desconocido»
+S114,COND,OMI,cree que podría estar embarazada,,0,
+S115,ADD,ADD,,(aproximadamente un vaso pequeño),0,
+S116,NINGUNO,,,,
+S116,NOSIMP,,,,Copia literal
+S117,NINGUNO,,,,
+S117,NOSIMP,,,,Copia literal
+S118,NINGUNO,,,,
+S118,NOSIMP,,,,Copia literal
+S119,FREC,OMI,Efectos adversos raros / muy raros / frecuentes / poco frecuentes / frecuencia no conocida,,2,Se suprimen todas las categorías
+S119,DIR,SUS,Pare de tomar ZUANTRIP y contacte con su médico inmediatamente,deje de tomar ZUANTRIP y hable con su médico lo antes posible,1,Se pierde la inmediatez
+S119,ADD,ADD,,"Si experimenta alguno de estos síntomas [lista completa], deje de tomar ZUANTRIP",1,Extiende la orden de suspender a efectos leves
+S120,NINGUNO,,,,
+S121,NINGUNO,,,,
+S121,NOSIMP,,,,Copia literal
+S122,NINGUNO,,,,
+S122,NOSIMP,,,,Casi copia literal
+S123,OMI,OMI,La forma de manipular y eliminar el producto se hará conforme a las directrices de otros preparados citotóxicos,,1,
+S123,MOD-E,SUS,es un tratamiento a largo plazo,puede ser largo,0,
+S124,NINGUNO,,,,
+S124,NOSIMP,,,,Copia literal
+S125,NINGUNO,,,,
+S126,DIR,SUS,Pare de tomar ZUANTRIP y contacte con su médico inmediatamente si experimenta: [solo efectos graves],Deje de tomar ZUANTRIP y llame a su médico de inmediato si nota alguno de los siguientes síntomas: [todos los efectos],1,La orden de suspender se extiende a todos los efectos
+S126,FREC,SUS,pueden afectar hasta 1 de cada 10 personas,pueden afectar a 1 de cada 10 personas,0,Se pierde «hasta»
+S127,FREC,SUS,Raros (menos de 1 por cada 1.000 pero más de 1 por cada 10.000),muy raros (afectan a menos de 1 de cada 10.000 personas),1,Categoría y cifra rebajadas en un orden de magnitud
+S127,TERM,SUS,"delirio, estupor","desorientación, pérdida del conocimiento",0,
+S128,TERM,SUS,deterioro del flujo biliar,dificultad para que el bazo elimine las sustancias que no debe retener,1,Órgano equivocado
+S129,NINGUNO,,,,
+S130,NINGUNO,,,,
+S130,NOSIMP,,,,Casi copia literal
+S131,NINGUNO,,,,
+S132,TERM,SUS,Dificultad para orinar,Tiene dificultad para orinar (no puede hacer sus necesidades),1,Glosa errónea
+S133,COND,SUS,divididos equitativamente en tres comidas,dividida en tres tomas iguales,1,Se pierde la toma con las comidas
+S133,REG,,,,Tuteo
+S134,NUM,SUS,una gota ... dos veces al día (mañana y tarde),"usar Alcarix solo una vez al día, por la mañana y por la tarde",2,Frecuencia contradictoria (una vez al día)
+S134,COND,OMI,Empiece a usar este colirio al día siguiente de su cirugía de cataratas.,,1,
+S134,REG,,,,Tuteo
+S135,TERM,SUS,problemas del ritmo cardiaco,problemas del corazón,1,Hiperónimo
+S135,ENT,SUS,que tome este medicamento 1 hora antes o 3 horas después de tomar sevelámero,si debe tomarlo [sevelámero] una hora antes o tres horas después de ese otro medicamento,1,Se invierte el orden de las tomas
+S136,DIR,SUS,su médico deberá extraerlo antes de inyectar,su médico debe revisarla antes de inyectar,1,Extracción → revisión
+S136,MOD-D,SUS,En pacientes con infección o alteraciones en la piel (consulte antes),No se debe usar este medicamento si tiene infección,0,Refuerzo
+S137,NINGUNO,,,,
+S137,NOSIMP,,,,Copia literal
+S138,NINGUNO,,,,
+S138,NOSIMP,,,,Copia literal
+S139,DIR,SUS,Nunca debe prolongarse el tratamiento sin una reevaluación por su médico.,Nunca deje de tomar la medicación sin hablar con su médico.,2,Se invierte la instrucción
+S139,OMI,OMI,prolongación del intervalo QT,,0,
+S140,NINGUNO,,,,
+S140,NOSIMP,,,,Copia literal
+S141,NINGUNO,,,,
+S141,NOSIMP,,,,Copia literal
+S142,ADD,ADD,,"No tome este medicamento si tiene problemas de corazón ... de coagulación ... de inmunidad ... de visión; si tiene más de 65 años, consulte",2,Contraindicaciones inventadas
+S142,OMI,SUS,No se alarme por esta lista de posibles efectos adversos. Puede ser que no experimente ninguno de ellos.,No se alarme si no experimenta ninguno de estos efectos adversos.,0,Sentido alterado
+S143,NINGUNO,,,,
+S143,REG,,,,Tuteo
+S144,FREC,OMI,Frecuencia no conocida (no puede estimarse a partir de los datos disponibles),,1,Se suprime el epígrafe y se mezclan categorías
+S144,OMI,OMI,se desarrollan a las pocas horas ... se repite en el mismo sitio ... después de la exposición posterior,manchas rojas ... que se curan con el tiempo,1,
+S144,TERM,SUS,Aumento de los niveles de azúcar en sangre (hiperglucemia). Esto es importante en las personas con diabetes.,Puede desarrollar problemas de azúcar en sangre.,1,Se pierde el sentido del cambio y la advertencia a diabéticos
+S144,TERM,SUS,Colapso circulatorio (shock de tipo anafiláctico),Puede desarrollar un colapso circulatorio.,1,Se pierde el carácter anafiláctico
+S145,FREC,SUS,En raros casos (en menos de 1 persona de cada 1.000),En casos muy raros,1,Se rebaja la categoría y se pierde la cifra
+S145,TERM,SUS,Pancreatitis (dolor intenso de abdomen y espalda),Dolor abdominal intenso: Dolor fuerte en el abdomen y la espalda,0,Se pierde el nombre de la enfermedad
+S146,NINGUNO,,,,
+S146,NOSIMP,,,,Casi copia literal
+S147,NINGUNO,,,,
+S147,NOSIMP,,,,Copia literal
+S148,ENT,OMI,"ciclosporina, micofenolato mofetilo y tacrolimus",,1,Se omiten los nombres de los fármacos que interaccionan
+S148,TERM,SUS,problemas del ritmo cardiaco,problemas del corazón,1,Hiperónimo
+S148,OMI,OMI,o es posible que considere la posibilidad de controlar los niveles sanguíneos de ese medicamento,,0,
+S149,NINGUNO,,,,
+S149,NOSIMP,,,,Copia literal
+S150,NINGUNO,,,,
+S150,NOSIMP,,,,Copia literal
+S151,NINGUNO,,,,
+S151,REG,,,,Tuteo
+S152,FREC,OMI,Muy frecuentes: más de 1 de cada 10 ... Muy raras: hasta 1 de cada 10.000,Efectos secundarios comunes / poco comunes / raros,1,Se pierden las cifras y las etiquetas normalizadas
+S152,OMI,OMI,Celulitis,,1,Se omite un efecto adverso
+S152,TERM,SUS,Quemazón y prurito,Picazón y enrojecimiento,0,
+S152,REG,,,,Tuteo
+S153,TERM,SUS,"Celulitis, inflamación (edema) e irritación","Inflamación, infección y enrojecimiento",0,
+S154,NINGUNO,,,,
+S155,COND,SUS,tómelo tan pronto como se acuerde a condición de que sea hasta una hora después de ingerir su comida,"tómelo tan pronto como lo recuerde. Pero, si ya ha comido, espere hasta una hora después de la comida",1,La ventana de toma pasa a ser un tiempo de espera
+S156,TERM,SUS,previene efectos irritantes en el intestino,protege el estómago y evita irritaciones,0,
+S157,ADD,ADD,,Ceguera (pérdida de visión); neuropatía óptica; retinitis; cataratas; uveítis ... (lista repetida),2,Efectos adversos inventados
+S157,NOSIMP,,,,Copia literal del resto
+S157,DEG,,,,Repetición degenerada
+S158,COND,ADD,Pacientes de edad avanzada,Pacientes mayores de 65 años,0,Umbral añadido
+S158,NUM,SUS,medio vaso de agua,un vaso de agua suficiente,0,
+S159,NINGUNO,,,,
+S159,REG,,,,Tuteo
+S160,NINGUNO,,,,
+S160,NOSIMP,,,,Copia literal
+S161,TERM,SUS,antes de empezar a usar Kentera,Antes de tomar Kentera,0,Parche
+S162,COND,SUS,después de ciertos tipos de cirugía cardiaca,"Si ha tenido cirugía cardiaca, tome 75-160 mg",1,Se generaliza a cualquier cirugía cardiaca
+S162,MOD-D,SUS,La dosis recomendada es 75-160 mg una vez al día.,tome 75-160 mg de este medicamento una vez al día,0,La recomendación pasa a orden
+S162,DIR,OMI,"En caso de duda, consulte de nuevo a su médico o farmacéutico.",,0,
+S163,NINGUNO,,,,
+S163,NOSIMP,,,,Copia literal
+S164,ENT,OMI,o con el médico que trata a su hijo,,0,
+S165,NINGUNO,,,,
+S166,COND,SUS,después de ciertos tipos de cirugía cardiaca,después de una operación del corazón,1,Se generaliza
+S166,TERM,SUS,previene efectos irritantes en el intestino,protege el estómago,0,
+S167,ENT,SUS,desinfectantes que contengan sales de amonio cuaternario,productos para limpiar la piel que contengan ciertos químicos,1,Se pierde el nombre de la sustancia
+S167,TERM,SUS,condiciones asépticas,con mucho cuidado,0,
+S168,COND,SUS,"Si considera que alguno de los siguientes efectos adversos que sufre es grave o persiste unos días, interrumpa el uso del medicamento e informe a su médico","Si experimenta picor, reacciones en la piel, enrojecimiento, inflamación, dolor o ampollas, avise a su médico.",1,Se pierden la condición y la orden de suspender
+S168,FREC,SUS,frecuentes (hasta 1 de cada 10) ... muy raros (hasta 1 de cada 10.000),comunes / menos comunes / raros,1,Se pierden las cifras y los muy raros pasan a raros
+S168,OMI,OMI,"conjuntivitis, alergia, ... pinchazos, rigidez muscular, ... eccema",,1,Se omiten efectos frecuentes
+S169,FREC,SUS,raros (hasta 1 de cada 1.000) / muy raros (hasta 1 de cada 10.000),muy raros (hasta 1 de cada 1.000) / muy poco frecuentes (hasta 1 de cada 10.000),1,Etiquetas desplazadas; se conservan las cifras
+S169,TERM,SUS,respiración sibilante,con sonidos estruendosos,0,
+S169,REG,,,,Tuteo
+S170,NINGUNO,,,,
+S171,FREC,SUS,pueden afectar hasta 1 de cada 1000 personas,pueden afectar a 1 de cada 1000 personas,0,Se pierde «hasta»
+S171,REG,,,,Tuteo
+S172,ENT,OMI,inhibidores de la monoaminooxidasa [IMAO],ciertos medicamentos para la depresión,1,Se pierde el grupo farmacológico
+S172,COND,SUS,"puede aumentar el riesgo de crisis epilépticas, sobre todo si se usa con medicamentos antipalúdicos (como la mefloquina)","Si tiene epilepsia, puede aumentar el riesgo de crisis epilépticas",1,Cambia la condición y se pierde la interacción
+S172,OMI,OMI,Hidroxicloroquina también puede reducir la eficacia de los antiepilépticos.,,1,
+S172,NUM,SUS,puede ser necesario reducir la dosis de la insulina,puede afectar la dosis de su medicamento para la diabetes,1,Se pierde el sentido del ajuste
+S172,ENT,OMI,"antiarrítmicos, antidepresivos tricíclicos, antipsicóticos, infecciones bacterianas",,1,Lista incompleta
+S173,COND,OMI,Los niños mayores de 1 año de edad que pesen más de 10 kg,y pesa más de 10 kg,1,Se omite el umbral de edad
+S173,COND,OMI,Los niños mayores de 4 años pueden tomar omeprazol,,1,Se omite el umbral de edad
+S173,ENT,OMI,"amoxicilina, claritromicina y metronidazol",,1,Se omiten los nombres de los antibióticos
+S174,NINGUNO,,,,
+S174,NOSIMP,,,,Copia literal
+S175,MOD-D,SUS,"El ácido acetilsalicílico no debe administrarse a niños y adolescentes menores de 16 años, a menos que lo prescriba un médico","Normalmente, este medicamento no se usa en niños y adolescentes menores de 16 años, a menos que un médico lo haya indicado",2,La prohibición pasa a descripción de un uso habitual
+S175,COND,SUS,después de ciertos tipos de cirugía cardiaca,después de una operación en el corazón,1,Se generaliza
+S175,TERM,SUS,Prevención de problemas cardiovasculares en pacientes que tienen angina estable o inestable,"Para ayudar a prevenir problemas en el corazón, como el dolor de pecho (angina)",1,La condición del paciente pasa a ser lo que se previene
+S176,NINGUNO,,,,
+S177,NINGUNO,,,,
+S178,NINGUNO,,,,
+S179,COND,OMI,No se recomienda para prevenir la malaria en niños,,0,Solo se conserva el umbral de peso
+S179,REG,,,,Tuteo
+S180,NINGUNO,,,,
+S180,NOSIMP,,,,Copia literal
+S181,NUM,SUS,"Necesita utilizar más dosis que las habituales, durante más de 2 días a la semana","Tiene que usar más dosis de lo normal, más de dos veces por semana",1,Días → veces
+S182,NINGUNO,,,,
+S182,NOSIMP,,,,Copia literal
+S183,TERM,SUS,interrumpa la aplicación de Solacutan,debe dejar de tomar Solacutan,0,Uso cutáneo
+S184,COND,SUS,en el(los) ojo(s) afectado(s),en el ojo afectado,0,
+S185,NINGUNO,,,,
+S186,FREC,OMI,Frecuencia no conocida (no puede estimarse a partir de los datos disponibles),,1,Se suprime el epígrafe y se mezclan categorías
+S187,NINGUNO,,,,
+S187,NOSIMP,,,,Copia literal
+S188,TERM,SUS,deterioro del flujo biliar,dificultad para que el bazo elimine la bilis,1,Órgano equivocado
+S189,COND,OMI,cree que podría estar embarazada,,0,
+S190,TERM,SUS,Quemazón y prurito; decoloración de la piel,Dolor o picazón; piel más clara,0,
+S191,OMI,OMI,u otras superficies,,0,
+S192,ENT,OMI,"Cloranfenicol, Fenitoína, metotrexato, Fluorouracilo, antiepilépticos, estrógenos, corticoesteroides, trimetroprim/sulfametoxazol","antibióticos, medicamentos para las convulsiones o para el cáncer",1,Se pierden los nombres y parte de la lista
+S192,NUM,SUS,esperar al menos 3 horas entre la administración de ambos,esperar un tiempo antes de tomarlos juntos,1,Se pierde la cifra
+S192,TERM,SUS,Diuréticos ahorradores de potasio,diuréticos,1,Hiperónimo
+S193,NINGUNO,,,,
+S193,NOSIMP,,,,Copia literal
+S194,NINGUNO,,,,
+S194,NOSIMP,,,,Copia literal
+S195,NINGUNO,,,,
+S195,NOSIMP,,,,Copia literal
+S196,NINGUNO,,,,
+S196,NOSIMP,,,,Copia literal
+S197,TERM,SUS,en el mismo lugar o lugares,en el mismo lugar o en otros lugares,0,
+S198,NINGUNO,,,,
+S198,NOSIMP,,,,Copia literal
+S199,TERM,SUS,corticoesteroides sistémicos,corticoesteroides,1,Se pierde «sistémicos»
+S199,TERM,SUS,disección o aneurisma aórticos,una afección grave,0,
+S199,DIR,SUS,acuda inmediatamente a un servicio de urgencias,acuda a un servicio de urgencias,0,
+S200,FREC,SUS,En raros casos (en menos de 1 persona de cada 1.000),En muy pocos casos (menos de 1 persona de cada 1.000),0,Se conserva la cifra
+S201,FREC,SUS,"Efectos adversos raros o poco frecuentes (es decir, pueden afectar entre 1 y 100 de cada 10.000 personas)",Estos son poco comunes:,1,Se pierden las cifras
+S201,TERM,SUS,falta de estrógenos,falta de hormonas,0,
+S202,FREC,OMI,Efectos adversos raros (hasta 1 de cada 1000) / muy raros (hasta 1 de cada 10000) [efectos graves],,1,Los efectos graves pierden su frecuencia
+S203,NINGUNO,,,,
+S204,NINGUNO,,,,
+S204,REG,,,,Tuteo
+S205,TERM,SUS,corticoesteroides sistémicos,corticoesteroides por vía oral,1,Excluye los inyectables
+S206,NINGUNO,,,,
+S206,NOSIMP,,,,Copia literal
+S207,NINGUNO,,,,
+S207,NOSIMP,,,,Copia literal
+S208,TERM,SUS,problemas del ritmo cardiaco,problemas del corazón,1,Hiperónimo
+S209,ADD,ADD,,"Tómalo con comidas normales, pero evita las comidas muy grasosas",1,Instrucción de administración no presente (y contraria a la sección 3)
+S209,REG,,,,Tuteo
+S210,NINGUNO,,,,
+S210,NOSIMP,,,,Copia literal
+S211,TERM,SUS,corticoesteroides sistémicos,otros medicamentos llamados corticoides,1,
+S211,ENT,SUS,es posible que su médico tenga que interrumpir el tratamiento,es posible que tenga que dejar de tomar este medicamento,1,La decisión pasa del médico al paciente
+S212,NINGUNO,,,,
+S212,NOSIMP,,,,Copia literal
+S213,NINGUNO,,,,
+S213,REG,,,,Tuteo
+S214,NINGUNO,,,,
+S215,TERM,SUS,Sales de litio,Sales de litio (un medicamento para la enfermedad de la tiroides),1,Glosa errónea
+S215,NUM,OMI,esperar al menos 3 horas entre la administración de ambos,,1,
+S215,ENT,OMI,"Otras posibles interacciones: antiepilépticos, estrógenos, uso prolongado de corticoesteroides, trimetroprim/sulfametoxazol y abuso de alcohol",,1,
+S216,FREC,SUS,Frecuencia no conocida (no puede estimarse a partir de los datos disponibles),"Es posible que estos efectos sean poco comunes, pero no se sabe con certeza",1,Se añade una estimación de frecuencia
+S216,TERM,SUS,hemorragia incontrolada,provocar sangrado,1,Se pierde la gravedad
+S217,OMI,OMI,"En raros casos (en menos de 1 persona de cada 1.000) ... rotura anormal de los músculos (rabdomiólisis), que puede originar problemas de riñón",,1,
+S217,ADD,ADD,,"Otros efectos adversos pueden ocurrir, pero no son graves.",1,Afirmación no presente en el original
+S218,NINGUNO,,,,
+S218,NOSIMP,,,,Copia literal
+S219,TERM,SUS,antes de empezar a usar Kentera,Antes de comenzar a tomar Kentera,0,Parche
+S220,ENT,OMI,"dos antibióticos de los siguientes: amoxicilina, claritromicina y metronidazol",dos antibióticos además,1,Se omiten los nombres
+S221,NINGUNO,,,,
+S222,MOD-D,SUS,En pacientes con infección o alteraciones en la piel (consulte antes); No se recomienda utilizar,no debe usar este medicamento; No use este medicamento,0,Refuerzo
+S222,ADD,ADD,,su médico lo evaluará antes de administrar el tratamiento,0,
+S223,ADD,ADD,,"Si tiene alguna duda sobre los efectos adversos que puede sufrir, consulte con su médico.",0,
+S223,NOSIMP,,,,Copia literal con una frase añadida
+S224,FREC,SUS,Frecuentes (pueden afectar hasta a 1 de cada 10 personas),en algunas personas (aproximadamente 1 de cada 10),1,El máximo pasa a estimación
+S224,TERM,SUS,deterioro del flujo biliar,problemas para eliminar líquidos del cuerpo,1,
+S225,FREC,SUS,Efectos adversos raros (pueden afectar hasta 1 de cada 1000 personas),Efectos muy raros (pueden afectar a 1 de cada 1000 personas),1,La etiqueta rebaja la categoría
+S226,NINGUNO,,,,
+S226,NOSIMP,,,,Copia literal
+S227,NINGUNO,,,,
+S228,FREC,SUS,Raros (hasta 1 de cada 1.000) / Muy raros (hasta 1 de cada 10.000),con muy poca frecuencia / con una frecuencia excepcional,0,Etiquetas no normalizadas; se conservan las cifras
+S229,MOD-E,SUS,es un tratamiento a largo plazo,es probable que sea un tratamiento a largo plazo,0,
+S229,TERM,SUS,"artritis reumatoide, artritis idiopática juvenil, psoriasis vulgaris, artritis psoriásica","artritis, psoriasis",0,
+S230,TERM,SUS,Si usa más Catiolanze,Si toma más Catiolanze,0,Colirio
+S230,NOSIMP,,,,Casi copia literal
+S231,FREC,SUS,En raros casos (en menos de 1 persona de cada 1.000),En casos muy raros (menos de 1 de cada 1.000 personas),0,Se conserva la cifra
+S232,FREC,SUS,En raros casos (en menos de 1 persona de cada 1.000),En muy pocos casos (menos de 1 persona de cada 1.000),0,Se conserva la cifra
+S233,OMI,OMI,"parálisis o pérdida de sensibilidad ...; ritmo cardiaco rápido, coloración azulada de la piel, o dolor repentino en el brazo, la pierna o el pie (signos de que se ha formado un coágulo)",,2,Se pierden signos de alarma de ictus y trombosis
+S233,FREC,OMI,"Efectos adversos raros o poco frecuentes (es decir, pueden afectar entre 1 y 100 de cada 10.000 personas)",,1,
+S233,ADD,ADD,,"Si experimenta alguno de estos síntomas, busque ayuda médica de inmediato.",0,
+S234,ENT,OMI,inhibidores de la monoaminooxidasa [IMAO],ciertos medicamentos para la depresión,1,
+S234,COND,SUS,"puede aumentar el riesgo de crisis epilépticas, sobre todo si se usa con medicamentos antipalúdicos (como la mefloquina)","Si está tomando medicamentos para las convulsiones, Hidroxicloroquina puede aumentar el riesgo de que tenga una crisis",1,Cambia la condición y se pierde la interacción con mefloquina
+S235,NINGUNO,,,,
+S236,TERM,SUS,En caso de una ingestión accidental suya o de su hijo de Catiolanze,Si usted o su hijo toman demasiadas gotas de Catiolanze por accidente,1,La ingestión pasa a ser exceso de gotas
+S237,ADD,ADD,,Advertencias: No tome omeprazol si está embarazada o amamantando sin consultar...; si tiene problemas de función renal o hepática...,2,Advertencias y contraindicaciones inventadas
+S237,ENT,OMI,"Su médico le indicará además que tome dos antibióticos de los siguientes: amoxicilina, claritromicina y metronidazol [adultos]",,1,Se omite la pauta antibiótica de adultos
+S238,OMI,OMI,aunque puede apreciarse normalmente a los 8 meses ... no parece estar asociado a ningún problema ... no progresa una vez que se ha suspendido,,1,
+S238,ADD,ADD,,(no se especifican en el texto original),0,Comentario del modelo
+S238,REG,,,,Tuteo
+S239,ENT,SUS,Se recomienda Malarone pediátrico comprimidos,"consulta con tu médico, ya que hay una versión específica para ellos",0,Se pierde el nombre del producto
+S239,REG,,,,Tuteo parcial
+S240,TERM,SUS,antes de empezar a usar Kentera,antes de tomar Kentera,0,Parche

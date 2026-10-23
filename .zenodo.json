@@ -1,0 +1,11 @@
+{
+  "title": "Errores de contenido en prospectos reescritos en lenguaje claro con modelos generativos abiertos: datos y código",
+  "upload_type": "dataset",
+  "description": "<p>Corpus, guía de anotación, anotaciones, salidas de cuatro modelos generativos abiertos (Salamandra-7B-Instruct, Llama 3.1-8B, Qwen3-8B y Gemma 3-12B), métricas y código del estudio sobre errores de contenido al reescribir en lenguaje claro prospectos de medicamentos en español. Los prospectos proceden de CIMA (AEMPS). Las simplificaciones son textos generados automáticamente para investigación y no deben usarse como información sobre medicamentos.</p>",
+  "creators": [
+    {"name": "Hernández Pardo, Blanca", "affiliation": "Universidad Pontificia Comillas", "orcid": "0000-0001-9005-7577"}
+  ],
+  "license": "cc-by-4.0",
+  "language": "spa",
+  "keywords": ["simplificación de textos", "lenguaje claro", "prospectos de medicamentos", "modelos de lenguaje", "evaluación de la fidelidad", "plain language", "package leaflets"]
+}

@@ -1,0 +1,354 @@
+id_salida,categoria,operacion,fragmento_original,fragmento_salida,gravedad,comentario
+S002,NUM,SUS,a las pocas horas,poco después,1,Se pierde la referencia temporal explícita a las horas.
+S002,OMI,OMI,debido al daño en los glóbulos rojos,,1,Se omite el daño de los glóbulos rojos como explicación del cambio de color de la piel.
+S002,TEC,,shock de tipo anafiláctico,shock anafiláctico,,Se conserva el tecnicismo anafiláctico sin explicar su significado.
+S007,ENT,OMI,oxibutinina,,1,Se omite el nombre oxibutinina que identifica el tratamiento en el original.
+S007,COND,SUS,Dolor al tragar,Dolor al tragar alimentos,2,Restringe la advertencia al tragar alimentos. Duda entre 1 y 2: podría excluir otros casos de dolor al tragar de la consulta previa.
+S007,DIR,ADD,,es crucial tomar precauciones en días calurosos para evitar la fiebre y el golpe de calor.,1,Añade una instrucción de tomar precauciones; el original informa del aumento del riesgo sin esta instrucción.
+S007,TEC,,,Obstrucción en el intestino,,Mantiene obstrucción sin explicar que se trata de un bloqueo.
+S008,DIR,OMI,y estable,,1,Se pierde la indicación de adoptar una posición estable.
+S008,DIR,OMI,inmediatamente después del uso,,1,"Indica cerrar después del uso, pero omite hacerlo inmediatamente."
+S008,TERM,SUS,otros colirios,otros medicamentos para los ojos,1,"Amplía la indicación de espera a cualquier medicamento para los ojos, sin conservar la clase concreta de colirios."
+S009,NUM,SUS,a 40 mg una vez al día,hasta 40 mg al día,1,Convierte el aumento a una dosis concreta de 40 mg en un límite máximo de hasta 40 mg; sigue atribuyendo el ajuste al médico.
+S009,NUM,OMI,40 mg una vez al día,,2,"En la pauta aumentada a 40 mg, desaparece la indicación de administrarlos en una sola toma diaria."
+S009,TERM,SUS,duodeno,intestino delgado,1,Sustituye la parte concreta del intestino por el intestino delgado completo en las indicaciones de las úlceras.
+S009,TERM,SUS,AINEs (antiinflamatorios no esteroideos),AINEs (medicamentos para el dolor y la inflamación),2,La explicación elimina la distinción de no esteroideos y puede hacer aplicar estas pautas a otros medicamentos para dolor o inflamación.
+S009,MOD-D,SUS,La dosis recomendada es de 20 mg de omeprazol dos veces al día durante una semana.,Debe tomar 20 mg de omeprazol dos veces al día durante una semana.,1,La dosis recomendada para Helicobacter pylori se convierte en una obligación expresa.
+S012,NUM,OMI,10 mg o 20 mg una vez al día,,2,"En la pauta inicial se conserva la cantidad diaria, pero desaparece que se administra en una sola toma."
+S012,NUM,OMI,40 mg una vez al día,,2,En el aumento a 40 mg se pierde la indicación de una única toma diaria.
+S012,NUM,OMI,20 mg una vez al día durante 4 a 8 semanas,,2,En el tratamiento de las úlceras por AINEs desaparece la indicación de una única toma diaria.
+S012,NUM,OMI,"Prevención de las úlceras de estómago y duodeno durante la administración de AINEs:
+- La dosis recomendada es de 20 mg una vez al día.",,2,"En la prevención de úlceras por AINEs se mantiene la cantidad diaria, pero desaparece la indicación de una única toma."
+S012,NUM,SUS,20 mg de omeprazol dos veces al día durante una semana,20 mg de omeprazol al día durante una semana,2,La pauta para Helicobacter pylori pasa de 20 mg dos veces al día a 20 mg al día.
+S012,COND,SUS,"dos antibióticos de los siguientes: amoxicilina, claritromicina y metronidazol","dos antibióticos, como amoxicilina, claritromicina o metronidazol",1,La lista de la que se deben elegir dos antibióticos pasa a presentarse como una lista de ejemplos.
+S012,TEC,,ERGE,ERGE,,Conserva la sigla ERGE sin desarrollar; también mantiene duodeno y regurgitación ácida sin explicar.
+S014,DIR,OMI,"Consulte a su médico o farmacéutico, si tiene dudas.",,1,Desaparece la orientación de consultar en caso de dudas.
+S014,NOSIMP,,Lávese las manos antes de utilizar el colirio.,Lávese las manos antes de utilizar el colirio.,,"Reordena los apartados, pero conserva casi literalmente la pauta y los pasos de administración."
+S019,NUM,OMI,"2.575,2 mg de etanol",,1,Se pierde la masa exacta de alcohol; conserva el porcentaje y las equivalencias con bebidas.
+S019,NUM,OMI,por dosis de 30 ml,,2,Las equivalencias con cerveza y vino quedan sin la cantidad de medicamento a la que corresponden.
+S019,MOD-D,SUS,Este medicamento es perjudicial para personas que padecen alcoholismo.,No debe tomar Elixifilin si tiene alcoholismo.,1,Convierte la advertencia de perjuicio en una prohibición explícita de tomarlo.
+S019,COND,OMI,"grupos de alto riesgo, como",,2,Limita los grupos de riesgo a los ejemplos nombrados. Duda entre 1 y 2: otros pacientes de alto riesgo podrían no considerar la advertencia sobre alcohol.
+S019,TEC,,,ácido acetilsalicílico,,"Conserva el nombre técnico sin una explicación en lenguaje corriente, como en el original."
+S020,ENT,SUS,amaranto (E123),un colorante,1,Se pierde la identificación del componente al que el original atribuye las posibles reacciones alérgicas.
+S020,COND,SUS,Si su médico le ha indicado que padece una intolerancia a ciertos azúcares,Si tienes problemas para digerir ciertos azúcares,1,La consulta deja de estar condicionada a que un médico haya indicado la intolerancia.
+S020,NUM,OMI,"10,66%",,1,Desaparece el porcentaje de alcohol.
+S020,NUM,OMI,"2.575,2 mg de etanol",,1,Desaparece la masa exacta de alcohol por dosis.
+S020,NUM,OMI,30 ml,,2,No se precisa el volumen de medicamento al que se refiere la cantidad de alcohol por dosis.
+S020,NUM,SUS,64 ml de cerveza o 27 ml de vino,una cerveza o un vaso de vino pequeño,2,Sustituye volúmenes precisos por recipientes sin volumen definido; puede distorsionar la cantidad de alcohol atribuida a la dosis.
+S020,TERM,SUS,personas que padecen alcoholismo,Si tienes problemas con el alcohol,1,Amplía la condición específica de alcoholismo a cualquier problema con el alcohol.
+S020,MOD-D,SUS,Este medicamento es perjudicial para personas que padecen alcoholismo.,"Si tienes problemas con el alcohol, no debes tomar este medicamento.",1,Convierte la advertencia de perjuicio en una prohibición explícita de tomarlo.
+S020,DIR,SUS,El contenido en alcohol debe tenerse en cuenta,es importante que hables con tu médico antes de tomar este medicamento,1,Sustituye tener en cuenta el alcohol por consultar al médico antes de tomarlo para los grupos citados.
+S020,COND,OMI,"grupos de alto riesgo, como",,2,Limita los grupos de riesgo a los ejemplos nombrados. Duda entre 1 y 2: otros pacientes de alto riesgo podrían no considerar la advertencia sobre alcohol.
+S020,TERM,SUS,Puede provocar asma,También puede provocar problemas de respiración,2,"Desaparece la identificación del asma como posible efecto, sustituida por un problema respiratorio inespecífico."
+S020,COND,SUS,especialmente en pacientes alérgicos al ácido acetilsalicílico,especialmente si eres alérgico a medicamentos como la aspirina,1,Amplía la advertencia desde un principio activo concreto a medicamentos similares no delimitados.
+S020,REG,,,Si tienes,,Pasa del tratamiento de usted al tuteo.
+S022,NUM,SUS,hasta una hora después de ingerir su comida,antes de una hora de comer,2,"La referencia temporal después de la comida se sustituye por antes de comer, alterando y haciendo ambigua la ventana para recuperar la dosis."
+S027,FREC,OMI,Raros (menos de 1 por cada 1.000 pero más de 1 por cada 10.000 sujetos tratados):,,2,Desaparece la categoría de frecuencia de una lista que incluye efectos graves y leves.
+S027,FREC,OMI,"menos de 1 por cada 10.000 sujetos tratados, incluyendo informes aislados",,1,Se mantiene «muy raras ocasiones» pero se omite la cifra de frecuencia.
+S027,OMI,OMI,dolor abdominal,,1,No figura el dolor abdominal entre los efectos digestivos enumerados.
+S027,MOD-E,SUS,Picor que puede ser debido a reacciones alérgicas,picor debido a una reacción alérgica,1,La causa alérgica del picor se presenta como cierta.
+S027,TEC,,delirio,delirio,,Se conserva delirio sin explicar su significado.
+S031,ENT,OMI,Elixifilin,,1,Desaparece el nombre del medicamento y solo se habla de este medicamento.
+S031,ENT,OMI,amaranto (E123),,1,Se omite el componente al que el original atribuye las posibles reacciones alérgicas.
+S031,COND,SUS,Si su médico le ha indicado que padece una intolerancia a ciertos azúcares,Si tiene problemas para digerir ciertos azúcares,1,La consulta deja de estar condicionada a que un médico haya indicado la intolerancia.
+S031,NUM,OMI,"10,66%",,1,Desaparece el porcentaje de alcohol.
+S031,NUM,OMI,"2.575,2 mg de etanol",,1,Desaparece la masa exacta de alcohol por dosis.
+S031,NUM,OMI,por dosis de 30 ml,,2,Las equivalencias con cerveza y vino quedan sin la cantidad de medicamento a la que corresponden.
+S031,TERM,SUS,personas que padecen alcoholismo,Si tiene problemas con el alcohol,1,Amplía la condición específica de alcoholismo a cualquier problema con el alcohol.
+S031,MOD-D,SUS,Este medicamento es perjudicial para personas que padecen alcoholismo.,"Si tiene problemas con el alcohol, no debe tomar este medicamento.",1,Convierte la advertencia de perjuicio en una prohibición explícita de tomarlo.
+S031,COND,OMI,de niños,,2,Desaparecen los niños de los grupos que deben tener en cuenta el contenido de alcohol.
+S031,OMI,OMI,Puede provocar asma,,2,Se omite que el medicamento puede provocar asma; en la salida el asma solo aparece como condición previa.
+S031,COND,SUS,especialmente en pacientes alérgicos al ácido acetilsalicílico,especialmente si tiene asma y es alérgico al ácido acetilsalicílico,2,Añade padecer asma como condición conjunta y traslada el grupo de especial riesgo a las reacciones alérgicas en general.
+S031,TEC,,,ácido acetilsalicílico,,"Conserva el nombre técnico sin una explicación en lenguaje corriente, como en el original."
+S037,COND,SUS,Si su médico le ha indicado que padece una intolerancia a ciertos azúcares,Si usted tiene problemas para digerir ciertos azúcares,1,La consulta deja de estar condicionada a que un médico haya indicado la intolerancia.
+S037,NUM,OMI,"10,66%",,1,"Se omite el porcentaje de alcohol, aunque permanecen el volumen de dosis y las equivalencias con bebidas."
+S037,NUM,OMI,"2.575,2 mg de etanol",,1,"Se omite la masa exacta de alcohol, aunque permanecen el volumen de dosis y las equivalencias con bebidas."
+S037,COND,OMI,"grupos de alto riesgo, como",,2,Limita los grupos de riesgo a los ejemplos nombrados. Duda entre 1 y 2: otros pacientes de alto riesgo podrían no considerar la advertencia sobre alcohol.
+S037,TERM,SUS,Puede provocar asma,Puede empeorar el asma,2,Cambia la posibilidad de provocar asma por empeorar un asma ya existente; podría no reconocerse el riesgo si no se padece previamente.
+S037,TEC,,,ácido acetilsalicílico,,"Conserva el nombre técnico sin una explicación en lenguaje corriente, como en el original."
+S038,MOD-D,SUS,Este medicamento es perjudicial para personas que padecen alcoholismo.,No debe tomar este medicamento si tiene alcoholismo.,1,Convierte la advertencia de perjuicio en una prohibición explícita de tomarlo.
+S038,MOD-D,SUS,El contenido en alcohol debe tenerse en cuenta,El alcohol contenido en este medicamento puede ser peligroso,1,La advertencia de peligro sustituye la indicación expresa de tener en cuenta el alcohol.
+S038,COND,OMI,"grupos de alto riesgo, como",,2,Limita los grupos de riesgo a los ejemplos nombrados. Duda entre 1 y 2: otros pacientes de alto riesgo podrían no considerar la advertencia sobre alcohol.
+S038,TEC,,,sacarosa,,"Conserva este tecnicismo sin explicarlo, como en el original."
+S041,TERM,SUS,dolor abdominal,dolor en el estómago,1,Se restringe el dolor abdominal al estómago.
+S041,TERM,SUS,delirio,alucinaciones,2,Las alucinaciones no equivalen al delirio descrito en el original.
+S041,TERM,SUS,estupor,somnolencia,2,"Se sustituye el estupor por somnolencia, que no expresa el mismo estado de alteración de la consciencia."
+S044,FREC,SUS,Raros,poco frecuentes,1,Se cambia la categoría verbal de frecuencia aunque se conservan sus límites numéricos.
+S044,TERM,SUS,dolor abdominal,dolor en el estómago,1,Se restringe el dolor abdominal al estómago.
+S044,TERM,SUS,estupor,somnolencia,2,"Se sustituye el estupor por somnolencia, que no expresa el mismo estado de alteración de la consciencia."
+S044,TEC,,delirio,delirio,,Se conserva delirio sin explicar su significado.
+S046,NINGUNO,,,,,
+S046,REG,,Si olvida tomar su medicamento,Si olvidas tomar tu medicamento,,Cambia de usted al tuteo.
+S049,FREC,OMI,pero más de 1 por cada 10.000,,1,Se omite el límite inferior de la frecuencia de los efectos raros.
+S049,OMI,OMI,"Aumento grave de calcio en sangre que puede provocar confusión, delirio, estupor y coma.",,2,"Se elimina por completo el aumento grave de calcio y sus manifestaciones, incluido el coma."
+S049,TERM,SUS,dolor abdominal,dolor de estómago,1,Se restringe el dolor abdominal al estómago.
+S049,DIR,ADD,,"Si experimenta picor, consulte a su médico.",1,Se añade una instrucción de consulta que no figura en el fragmento original.
+S050,ENT,OMI,Kentera,,1,Desaparece el nombre del medicamento y solo se habla de este medicamento.
+S050,ENT,OMI,oxibutinina,,1,Se omite el nombre oxibutinina que identifica el tratamiento en el original.
+S050,TERM,SUS,Obstrucción intestinal,Problemas para que los alimentos pasen por su estómago o intestinos.,1,La obstrucción intestinal se convierte en un problema más general de paso de alimentos e incluye el estómago.
+S050,COND,SUS,Debilidad muscular generalizada,Debilidad en los músculos.,1,Se elimina el alcance generalizado de la debilidad que motiva la consulta.
+S055,NINGUNO,,,,,
+S055,NOSIMP,,"Siga exactamente las instrucciones de administración de este medicamento indicadas por su médico. Consulte a su médico o farmacéutico, si tiene dudas.","Siga exactamente las instrucciones de administración de este medicamento indicadas por su médico. Consulte a su médico o farmacéutico, si tiene dudas.",,La salida reproduce íntegramente el original.
+S055,TEC,,vía oftálmica,vía oftálmica,,"Conserva el tecnicismo sin explicarlo, igual que el original."
+S061,ENT,OMI,Royen,,1,Se omite el nombre del medicamento.
+S061,FREC,OMI,Raros (menos de 1 por cada 1.000 pero más de 1 por cada 10.000 sujetos tratados):,,2,Desaparecen la categoría y sus cifras en una lista que mezcla efectos graves y leves.
+S061,FREC,OMI,"Muy raros (menos de 1 por cada 10.000 sujetos tratados, incluyendo informes aislados):",,2,El picor pierde su categoría de frecuencia y pasa a la misma lista de efectos graves y leves.
+S061,NOSIMP,,"Aumento grave de calcio en sangre que puede provocar confusión, delirio, estupor y coma.","Aumento grave de calcio en sangre que puede provocar confusión, delirio, estupor y coma.",,Las descripciones de los efectos se copian literalmente; se eliminan la introducción y las frecuencias.
+S061,TEC,,"delirio, estupor","delirio, estupor",,Se conservan estos tecnicismos sin explicación.
+S062,NINGUNO,,,,,
+S062,NOSIMP,,Si olvidó tomar Normostat,Si olvidó tomar Normostat,,La salida reproduce íntegramente el original.
+S069,TERM,SUS,insuficiencia renal,insuficiencia renal (los riñones dejan de funcionar),1,La explicación presenta una pérdida total de funcionamiento que el original no especifica.
+S069,OMI,OMI,claramente delimitadas,,1,Se pierde la delimitación de las manchas como característica para reconocerlas.
+S069,NUM,SUS,a las pocas horas,poco después,1,Se pierde la referencia temporal explícita a las horas.
+S069,OMI,OMI,en el mismo sitio,,1,No se indica que las manchas reaparecen en el mismo sitio.
+S069,ENT,OMI,la membrana mucosa,,1,Se omite la mucosa como lugar de aparición de las manchas.
+S069,MOD-E,SUS,"por lo general, se repite",pueden volver a aparecer,1,La reaparición habitual se convierte en una mera posibilidad.
+S069,OMI,OMI,debido al daño en los glóbulos rojos,,1,Se omite la explicación del daño en los glóbulos rojos.
+S069,TERM,SUS,hemorragia incontrolada,sangrado,2,"Se pierde el carácter incontrolado del sangrado, relevante para reconocer la gravedad del efecto."
+S069,OMI,OMI,persistente,,1,Se omite que el malestar general persiste.
+S069,OMI,OMI,temporal,,1,Se omite que la pérdida de consciencia o de postura es temporal.
+S069,TERM,SUS,de la postura,caerse,1,Caerse no expresa exactamente la pérdida de postura descrita en el original.
+S069,TEC,,shock de tipo anafiláctico,shock anafiláctico,,Se conserva el tecnicismo anafiláctico sin explicar su significado.
+S075,COND,SUS,al volver a exponerse al medicamento,cuando el medicamento entra en contacto con tu piel,2,"La reexposición al medicamento se sustituye por un contacto cutáneo, restringiendo la circunstancia desencadenante."
+S075,OMI,OMI,en el mismo lugar o lugares,,1,Se omite la reaparición en las mismas zonas.
+S075,OMI,OMI,redondas u ovaladas,,1,Se omite la forma de las manchas.
+S075,REG,,al volver a exponerse al medicamento,tu piel,,La salida introduce el tuteo.
+S078,NINGUNO,,,,,
+S078,NOSIMP,,- La dosis recomendada es de 10 mg o 20 mg una vez al día. Puede que su médico aumente la dosis a 40 mg una vez al día.,- La dosis recomendada es de 10 mg o 20 mg una vez al día. Puede que su médico aumente la dosis a 40 mg una vez al día.,,La salida reproduce íntegramente el original.
+S078,TEC,,ERGE,ERGE,,Conserva la sigla ERGE sin desarrollar; también mantiene duodeno y regurgitación ácida sin explicar.
+S088,MOD-E,SUS,suele reaparecer,Es posible que tengas una reacción alérgica que vuelva a aparecer,1,La reaparición habitual se convierte en una mera posibilidad.
+S088,OMI,OMI,redondas u ovaladas,,1,Se omite la forma de las manchas.
+S088,REG,,al volver a exponerse al medicamento,si vuelves a tomar el medicamento,,La salida introduce el tuteo.
+S090,MOD-D,SUS,En pacientes con infección o alteraciones en la piel en las zonas próximas al punto de inyección.,"Si tiene una infección o problemas en la piel cerca del punto de inyección, no debe usar este medicamento.",1,Convierte una situación que debe consultarse antes del uso en una prohibición absoluta de usar el medicamento.
+S090,MOD-D,SUS,No se recomienda utilizar este medicamento con desinfectantes que contengan sales de amonio cuaternario.,No use este medicamento con desinfectantes que contengan sales de amonio cuaternario.,1,Refuerza no se recomienda hasta una prohibición; caso límite de la guía.
+S090,COND,SUS,inmeditamente después del tratamiento,Después de recibir el tratamiento,1,Se pierde la precisión de que evitar la sobrecarga afecta al momento inmediatamente posterior al tratamiento.
+S090,TERM,SUS,condiciones asépticas,condiciones limpias,2,La limpieza o el cuidado genéricos no conservan la exigencia de condiciones asépticas para la inyección. Duda entre 1 y 2: podría aceptarse una técnica de administración insuficiente.
+S090,TEC,,,sales de amonio cuaternario,,"Conserva este tecnicismo sin explicarlo, como en el original."
+S093,MOD-E,SUS,suele reaparecer,puede ocurrir,1,La reaparición habitual se convierte en una mera posibilidad.
+S093,OMI,OMI,en el mismo lugar o lugares,,1,Se omite la reaparición en las mismas zonas.
+S093,DIR,ADD,,deja de tomar el medicamento,2,Se añade una orden de suspender el medicamento que no figura en el fragmento original.
+S093,DIR,ADD,,habla con tu médico,1,Se añade una instrucción de consulta que no figura en el fragmento original.
+S093,DIR,ADD,,"Si tienes alguna pregunta o inquietud, consulta el folleto de información del paciente que viene con este medicamento.",1,Se añade una instrucción de consultar el folleto ante dudas o inquietudes.
+S093,REG,,al volver a exponerse al medicamento,cuando vuelves a tomar este medicamento,,La salida introduce el tuteo.
+S094,MOD-D,SUS,No se recomienda utilizar este medicamento con desinfectantes que contengan sales de amonio cuaternario.,No use este medicamento con productos para limpiar la piel que contengan sales de amonio cuaternario.,1,Refuerza no se recomienda hasta una prohibición; caso límite de la guía.
+S094,TERM,SUS,desinfectantes,productos para limpiar la piel,1,Sustituye los desinfectantes por una categoría más amplia de productos de limpieza de la piel.
+S094,TERM,SUS,condiciones asépticas,mucho cuidado y limpieza (condiciones asépticas),1,La limpieza o el cuidado genéricos no conservan la exigencia de condiciones asépticas para la inyección. El término original se mantiene entre paréntesis.
+S094,TEC,,,sales de amonio cuaternario,,"Conserva este tecnicismo sin explicarlo, como en el original."
+S095,NINGUNO,,,,,
+S096,COND,SUS,Si su médico le ha indicado que padece una intolerancia a ciertos azúcares,Si usted tiene intolerancia a ciertos azúcares,1,La consulta deja de estar condicionada a que un médico haya indicado la intolerancia.
+S096,MOD-D,SUS,Este medicamento es perjudicial para personas que padecen alcoholismo.,No es recomendable para personas que sufren de alcoholismo.,2,Presenta la advertencia de perjuicio como una recomendación. Duda entre 1 y 2: podría facilitar que se tome pese al riesgo señalado en el original.
+S096,TEC,,,ácido acetilsalicílico,,"Conserva el nombre técnico sin una explicación en lenguaje corriente, como en el original."
+S099,MOD-D,SUS,En pacientes con infección o alteraciones en la piel en las zonas próximas al punto de inyección.,No se debe usar este medicamento si tiene infección o problemas en la piel cerca del lugar donde se inyectará.,1,Convierte una situación que debe consultarse antes del uso en una prohibición absoluta de usar el medicamento.
+S099,MOD-D,SUS,No se recomienda utilizar este medicamento con desinfectantes que contengan sales de amonio cuaternario.,No use este medicamento con desinfectantes que contengan sales de amonio cuaternario.,1,Refuerza no se recomienda hasta una prohibición; caso límite de la guía.
+S099,TERM,SUS,condiciones asépticas,técnicas limpias,2,La limpieza o el cuidado genéricos no conservan la exigencia de condiciones asépticas para la inyección. Duda entre 1 y 2: podría aceptarse una técnica de administración insuficiente.
+S099,TEC,,,sales de amonio cuaternario,,"Conserva este tecnicismo sin explicarlo, como en el original."
+S100,FREC,OMI,Frecuencia no conocida (no puede estimarse a partir de los datos disponibles),,2,Desaparece la categoría y se reúne en una lista sin frecuencia información sobre efectos graves y leves.
+S100,DIR,ADD,,"Si experimenta alguno de estos efectos, debe informar a su médico.",1,Se añade la instrucción de informar al médico ante cualquiera de los efectos.
+S100,NOSIMP,,Manchas eritematosas claramente delimitadas,Manchas eritematosas claramente delimitadas,,"Se copia el contenido del original casi literalmente, con una introducción y una instrucción añadidas."
+S100,TEC,,hiperpigmentación residual postinflamatoria,hiperpigmentación residual postinflamatoria,,Se conserva este tecnicismo sin explicación.
+S107,NINGUNO,,,,,
+S107,TEC,,ERGE,ERGE,,Llamarla enfermedad no desarrolla la sigla; también conserva duodeno y regurgitación ácida sin explicar.
+S112,MOD-E,SUS,suele reaparecer,Es posible que tenga una reacción alérgica que vuelva a aparecer,1,La reaparición habitual se convierte en una mera posibilidad.
+S112,TERM,SUS,manchas redondas u ovaladas de enrojecimiento e hinchazón de la piel,"Manchas rojas o de forma ovalada en la piel, con hinchazón.",1,Se sustituye la forma redonda por el color rojo y se presentan como alternativas a la forma ovalada.
+S118,NINGUNO,,,,,
+S118,NOSIMP,,"Una reacción alérgica que suele reaparecer en el mismo lugar o lugares al volver a exponerse al medicamento y que puede incluir manchas redondas u ovaladas de enrojecimiento e hinchazón de la piel, ampollas y picazón (erupción fija por medicamentos). También","Una reacción alérgica que suele reaparecer en el mismo lugar o lugares al volver a exponerse al medicamento y que puede incluir manchas redondas u ovaladas de enrojecimiento e hinchazón de la piel, ampollas y picazón (erupción fija por medicamentos). También",,La salida reproduce casi literalmente el original.
+S122,NINGUNO,,,,,
+S122,NOSIMP,,Latido anormalmente rápido del corazón (taquicardia) o disminución de la tensión arterial (hipotensión).,Ritmo cardíaco anormalmente rápido (taquicardia) o presión arterial baja (hipotensión).,,La salida reproduce casi literalmente el original.
+S122,TEC,,hiperpigmentación residual postinflamatoria,hiperpigmentación residual postinflamatoria,,Se conserva este tecnicismo sin explicación.
+S124,NINGUNO,,,,,
+S124,NOSIMP,,- La dosis recomendada es de 10 mg o 20 mg una vez al día. Puede que su médico aumente la dosis a 40 mg una vez al día.,- La dosis recomendada es de 10 mg o 20 mg una vez al día. Puede que su médico aumente la dosis a 40 mg una vez al día.,,La salida reproduce íntegramente el original.
+S124,TEC,,ERGE,ERGE,,Conserva la sigla ERGE sin desarrollar; también mantiene duodeno y regurgitación ácida sin explicar.
+S127,FREC,SUS,Raros (menos de 1 por cada 1.000 pero más de 1 por cada 10.000 sujetos tratados),muy raros (afectan a menos de 1 de cada 10.000 personas que toman el medicamento),2,"Los efectos raros, incluido el aumento grave de calcio, se presentan como muy raros con una cifra menor."
+S127,TERM,SUS,dolor abdominal,dolor de estómago,1,Se restringe el dolor abdominal al estómago.
+S127,TERM,SUS,delirio,desorientación,2,"Se reduce el delirio a la desorientación, que no expresa el mismo cuadro."
+S127,TERM,SUS,estupor,pérdida del conocimiento,2,La pérdida del conocimiento no equivale al estupor y puede cambiar la identificación del efecto.
+S130,NINGUNO,,,,,
+S130,NOSIMP,,Latido anormalmente rápido del corazón (taquicardia) o disminución de la tensión arterial (hipotensión).,Ritmo cardíaco anormalmente rápido (taquicardia) o presión arterial baja (hipotensión).,,La salida reproduce casi literalmente el original.
+S130,TEC,,hiperpigmentación residual postinflamatoria,hiperpigmentación residual postinflamatoria,,Se conserva este tecnicismo sin explicación.
+S131,MOD-E,SUS,suele reaparecer,vuelve a aparecer,1,Se pierde el matiz de habitualidad y la reaparición se presenta sin esa reserva.
+S132,ENT,OMI,oxibutinina,,1,Se omite el nombre oxibutinina que identifica el tratamiento en el original.
+S132,TERM,SUS,Dificultad para orinar,dificultad para orinar (no puede hacer sus necesidades),2,La explicación equipara dificultad para orinar con imposibilidad de hacer las necesidades; podría dificultar reconocer la situación que exige consulta.
+S132,TERM,SUS,golpe de calor,golpe de calor (temperatura alta),2,La explicación reduce el golpe de calor a temperatura alta. Duda entre 1 y 2: podría alterar el reconocimiento del riesgo advertido.
+S132,TERM,SUS,Dolor al tragar,dolor al tragar (dolor en la garganta al comer o beber),1,"La explicación restringe el dolor al tragar a la garganta y a comer o beber, sin que el original establezca esas limitaciones. Se conserva la expresión original antes del paréntesis."
+S134,NUM,SUS,dos veces al día (mañana y tarde),"solo una vez al día, por la mañana y por la tarde",2,Reduce la pauta a una vez al día y la contradice al mantener mañana y tarde.
+S134,COND,SUS,en el(los) ojo(s) afectado(s),en cada ojo,2,La dosis deja de limitarse a los ojos afectados y se extiende a cada ojo.
+S134,NUM,OMI,al día siguiente de su cirugía de cataratas,,2,Desaparece el momento en que debe iniciarse el colirio tras la cirugía.
+S134,NUM,OMI,Continúe con las gotas durante las 2 primeras semanas tras la cirugía.,,2,"Conserva el máximo de dos semanas, pero omite la pauta de mantener el tratamiento durante esas dos primeras semanas."
+S134,DIR,OMI,u otras superficies,,2,"La prohibición de contacto del gotero deja de incluir otras superficies, con posible uso de un gotero contaminado."
+S134,DIR,OMI,inmediatamente después del uso,,1,"Mantiene el cierre después del uso, pero omite que sea inmediato."
+S134,MOD-D,SUS,Siga exactamente las instrucciones de administración de este medicamento indicadas por su médico.,Es importante seguir las instrucciones de tu médico,1,Reformula la instrucción directa como una indicación de importancia.
+S134,REG,,Lávese las manos antes de utilizar el colirio.,Lávate las manos antes de usar el colirio.,,Cambia de usted al tuteo en los pasos y en las recomendaciones finales.
+S136,ENT,OMI,Hyalgan,,1,Desaparece el nombre del medicamento y solo se habla de este medicamento.
+S136,ENT,ADD,,o en otra articulación,1,Añade otras articulaciones a la localización en la rodilla expresada en el original.
+S136,DIR,SUS,su médico deberá extraerlo antes de inyectar este medicamento,su médico debe revisarla antes de inyectar el medicamento,2,Sustituye extraer el derrame antes de inyectar por revisar la inflamación; desaparece la actuación previa requerida.
+S136,MOD-D,SUS,En pacientes con infección o alteraciones en la piel en las zonas próximas al punto de inyección.,No se debe usar este medicamento si tiene infección o problemas en la piel cerca del lugar donde se inyectará.,1,Convierte una situación que debe consultarse antes del uso en una prohibición absoluta de usar el medicamento.
+S136,MOD-D,SUS,No se recomienda utilizar este medicamento con desinfectantes que contengan sales de amonio cuaternario.,No combine este medicamento con desinfectantes que contengan sales de amonio cuaternario.,1,Refuerza no se recomienda hasta una prohibición; caso límite de la guía.
+S136,COND,SUS,inmeditamente después del tratamiento,poco después de la inyección,1,"Sustituye el momento inmediatamente posterior por poco después, perdiendo precisión temporal sin indicar expresamente que se deba esperar."
+S136,TERM,SUS,condiciones asépticas,técnicas limpias,2,La limpieza o el cuidado genéricos no conservan la exigencia de condiciones asépticas para la inyección. Duda entre 1 y 2: podría aceptarse una técnica de administración insuficiente.
+S136,TEC,,,sales de amonio cuaternario,,"Conserva este tecnicismo sin explicarlo, como en el original."
+S140,NINGUNO,,,,,
+S140,NOSIMP,,"Al igual que todos los medicamentos, Royen puede producir efectos adversos, aunque no todas las personas los sufran.","Al igual que todos los medicamentos, Royen puede producir efectos adversos, aunque no todas las personas los sufran.",,La salida reproduce casi literalmente el original.
+S140,TEC,,"delirio, estupor","delirio, estupor",,Se conservan estos tecnicismos sin explicación.
+S144,OMI,OMI,del sistema nervioso,,1,Se omite la información que sitúa la miastenia gravis en el sistema nervioso.
+S144,OMI,OMI,que puede ser consecuencia de una reacción en el riñón de tipo alérgico denominada nefritis intersticial,,1,Se omite la posible causa alérgica del problema renal y su denominación.
+S144,ENT,OMI,levofloxacino,,1,Se omite el nombre del medicamento al que el original vincula la reacción cutánea.
+S144,OMI,OMI,claramente delimitadas,,1,Se pierde la delimitación de las manchas como característica para reconocerlas.
+S144,OMI,OMI,con/o sin ampollas,,1,Se omite que las manchas pueden presentar ampollas.
+S144,NUM,OMI,a las pocas horas,,1,Se omite el tiempo de aparición de las manchas tras administrar el medicamento.
+S144,OMI,OMI,con hiperpigmentación residual postinflamatoria,,1,Se omite que la curación puede dejar una pigmentación más oscura.
+S144,COND,OMI,"por lo general, se repite en el mismo sitio de la piel o de la membrana mucosa después de la exposición posterior a levofloxacino",,2,"Se omite la reaparición tras una nueva exposición al medicamento, relevante para reconocer la relación entre ambos."
+S144,FREC,OMI,Frecuencia no conocida (no puede estimarse a partir de los datos disponibles),,2,Desaparece la categoría y se reúnen efectos graves y leves en una lista sin frecuencia.
+S144,OMI,OMI,Disminución de glóbulos rojos en sangre,,1,Se conserva anemia pero se omite su explicación en términos de glóbulos rojos.
+S144,MOD-E,SUS,esto puede hacer que la piel se vuelva pálida o amarillenta,lo que hace que la piel se vuelva pálida o amarillenta,1,El posible cambio de color se presenta como una consecuencia cierta.
+S144,OMI,OMI,debido al daño en los glóbulos rojos,,1,Se omite la explicación del daño en los glóbulos rojos.
+S144,OMI,OMI,disminución en el número de todos los tipos de células de la sangre (pancitopenia),,2,Se suprime por completo este efecto sobre todos los tipos de células sanguíneas.
+S144,OMI,OMI,La médula ósea deja de producir nuevas células sanguíneas,,1,Se conserva el nombre insuficiencia de la médula ósea pero se omite la explicación de lo que ocurre.
+S144,TERM,SUS,menor capacidad para combatir infecciones,infecciones frecuentes,1,La menor capacidad para combatir infecciones se sustituye por una frecuencia de infecciones no indicada.
+S144,TERM,SUS,hemorragia incontrolada,hemorragia,2,"Se pierde el carácter incontrolado de la hemorragia, relevante para reconocer la gravedad del efecto."
+S144,OMI,OMI,persistente,,1,Se omite que el malestar general persiste.
+S144,OMI,OMI,Esto puede ser debido a una disminución del número de glóbulos blancos (agranulocitosis).,,1,"Se omite la posible relación de la fiebre, el dolor de garganta y el malestar con la disminución de glóbulos blancos."
+S144,TERM,SUS,Colapso circulatorio (shock de tipo anafiláctico),colapso circulatorio,2,Se pierde el carácter anafiláctico del colapso.
+S144,TERM,SUS,Aumento de los niveles de azúcar en sangre (hiperglucemia),problemas de azúcar en sangre,2,La expresión genérica no indica que el problema es un aumento del azúcar.
+S144,COND,OMI,Esto es importante en las personas con diabetes.,,2,Se suprime la advertencia dirigida específicamente a las personas con diabetes.
+S144,TERM,SUS,"Cambios en el olfato, pérdida de olfato o gusto",problemas de olfato o gusto,1,La formulación genérica omite la posibilidad de pérdida de estos sentidos.
+S144,TERM,SUS,Trastornos del movimiento y de la marcha,problemas de movimiento o equilibrio,1,Los trastornos de la marcha se sustituyen por problemas de equilibrio.
+S144,OMI,OMI,temporal,,1,Se omite que la pérdida de consciencia o de postura es temporal.
+S144,TERM,SUS,Pérdida temporal de la visión,problemas de visión,2,Se reemplaza la pérdida temporal de visión por una expresión inespecífica que puede dificultar reconocer ese efecto.
+S144,TERM,SUS,Problemas o pérdida de oído,problemas de oído,2,Se omite la posibilidad de pérdida de audición dentro de una expresión genérica.
+S144,TEC,,Colapso circulatorio,colapso circulatorio,,Se conserva este tecnicismo sin explicación.
+S147,NINGUNO,,,,,
+S147,NOSIMP,,,"Elixifilin contiene sacarosa, etanol y amaranto (E123)
+Este medicamento contiene sacarosa. Si su médico le ha indicado que padece una intolerancia a ciertos azúcares, consulte con él antes de tomar este medicamento.
+Puede producir caries.
+Este medicamento",,La salida reproduce literalmente el original.
+S147,TEC,,,sacarosa,,"Conserva este tecnicismo sin explicarlo, como en el original."
+S149,NINGUNO,,,,,
+S149,NOSIMP,,,"Advertencias y precauciones
+Consulte a su médico o farmacéutico antes de empezar a usar Hyalgan.
+- Si se observa derrame articular (inflamación de la rodilla), su médico deberá extraerlo antes de inyectar este medicamento.
+- Si se determinan posibles signos",,La salida reproduce literalmente el original.
+S149,TEC,,,sales de amonio cuaternario,,"Conserva este tecnicismo sin explicarlo, como en el original."
+S155,NUM,SUS,hasta una hora después de ingerir su comida,espere hasta una hora después de la comida,2,Convierte un límite máximo para recuperar la dosis en una instrucción de esperar una hora tras comer.
+S155,COND,SUS,tómelo tan pronto como se acuerde a condición de que sea hasta una hora después de ingerir su comida,"tómelo tan pronto como lo recuerde. Pero, si ya ha comido",2,La toma al recordar deja de estar subordinada a haber comido dentro de la ventana indicada; la comida pasa a condicionar solo la espera.
+S155,NUM,SUS,una dosis doble,dos pastillas juntas,2,Equipara una dosis doble a dos pastillas juntas sin que el original establezca cuántas unidades constituyen una dosis ni esa forma farmacéutica.
+S160,NINGUNO,,,,,
+S160,NOSIMP,,,"Advertencias y precauciones
+Consulte a su médico o farmacéutico antes de empezar a usar Kentera, si usted padece cualquiera de lo siguiente.
+- Problemas hepáticos
+- Problemas renales
+- Dificultad para orinar
+- Obstrucción intestinal
+- Presencia de sangre en",,La salida reproduce literalmente el original.
+S160,TEC,,,Problemas hepáticos,,"Conserva este tecnicismo sin explicarlo, como en el original."
+S161,ENT,OMI,oxibutinina,,1,Se omite el nombre oxibutinina que identifica el tratamiento en el original.
+S161,COND,SUS,Debilidad muscular generalizada,debilidad en los músculos,1,Se elimina el alcance generalizado de la debilidad que motiva la consulta.
+S165,NINGUNO,,,,,
+S165,TEC,,"delirio, estupor","delirio, estupor",,Se conservan estos tecnicismos sin explicación.
+S167,ENT,OMI,Hyalgan,,1,Desaparece el nombre del medicamento y solo se habla de este medicamento.
+S167,MOD-D,SUS,No se recomienda utilizar este medicamento con desinfectantes que contengan sales de amonio cuaternario.,No use productos para limpiar la piel que contengan ciertos químicos (su médico o farmacéutico le pueden decir cuáles).,1,Refuerza no se recomienda hasta una prohibición; caso límite de la guía.
+S167,TERM,SUS,sales de amonio cuaternario,ciertos químicos,2,Se pierde la identificación de las sustancias concretas que no se recomienda combinar con el medicamento.
+S167,ADD,ADD,,su médico o farmacéutico le pueden decir cuáles,1,Añade que estos profesionales identificarán los productos no especificados; el original sí nombra las sustancias.
+S167,COND,SUS,inmeditamente después del tratamiento,después de la inyección,1,Se pierde la precisión de que evitar la sobrecarga afecta al momento inmediatamente posterior al tratamiento.
+S167,TERM,SUS,condiciones asépticas,mucho cuidado,2,La limpieza o el cuidado genéricos no conservan la exigencia de condiciones asépticas para la inyección. Duda entre 1 y 2: podría aceptarse una técnica de administración insuficiente.
+S170,TERM,SUS,párpado inferior,parte inferior del párpado,1,La parte inferior de un párpado no identifica de forma equivalente el párpado inferior.
+S173,NUM,ADD,,una pastilla al día de 10 mg o 20 mg,2,"Introduce una pastilla como unidad y número de unidades por toma, cuando el original solo expresa miligramos."
+S173,NUM,OMI,40 mg una vez al día,,2,En el aumento a 40 mg desaparece la indicación de una única toma diaria.
+S173,NUM,OMI,20 mg una vez al día durante 4 a 8 semanas,,2,En el tratamiento de úlceras por AINEs se pierde la indicación de una única toma diaria.
+S173,NUM,OMI,"Prevención de las úlceras de estómago y duodeno durante la administración de AINEs:
+- La dosis recomendada es de 20 mg una vez al día.",,2,En la prevención de úlceras por AINEs se pierde la indicación de una única toma diaria.
+S173,TERM,SUS,AINEs (antiinflamatorios no esteroideos),antiinflamatorios,2,"Elimina la distinción de no esteroideos en las pautas para tratar y prevenir úlceras, ampliándolas a otros antiinflamatorios."
+S173,ENT,OMI,omeprazol,,1,Desaparece el nombre del medicamento en todo el pasaje; lo sustituye por referencias a este medicamento.
+S173,ENT,OMI,"amoxicilina, claritromicina y metronidazol",,2,Omite la lista concreta de la que se seleccionan los dos antibióticos del tratamiento de Helicobacter pylori.
+S173,COND,SUS,exceso de ácido en el estómago provocado por un tumor en el páncreas,"un problema de salud que hace que su estómago produzca demasiado ácido, como un tumor en el páncreas",2,"Extiende la pauta de 60 mg a cualquier problema que produzca exceso de ácido, al presentar el tumor solo como ejemplo."
+S173,NUM,OMI,mayores de 1 añode edad,,2,Desaparece el umbral de edad para el uso pediátrico por síntomas de ERGE; solo se conserva el peso.
+S173,NUM,OMI,mayores de 4 años,,2,Desaparece el umbral de edad para el tratamiento pediátrico de Helicobacter pylori.
+S173,ENT,OMI,amoxicilina y claritromicina,,2,Omite cuáles son los dos antibióticos de la pauta pediátrica.
+S174,NINGUNO,,,,,
+S174,NOSIMP,,"Si olvida tomar su medicamento en cualquier momento, tómelo tan pronto como se acuerde a condición de que sea hasta una hora después de ingerir su comida y a continuación continúe tomándolo a los intervalos habituales. No tome una dosis doble para compensar","Si olvida tomar su medicamento en cualquier momento, tómelo tan pronto como se acuerde a condición de que sea hasta una hora después de ingerir su comida y a continuación continúe tomándolo a los intervalos habituales. No tome una dosis doble para compensar",,"Salvo el tiempo verbal del título, reproduce el original."
+S177,COND,SUS,a menos que se lo diga su médico,sin consultar a su médico,2,"Permite interpretar que basta consultar para cambiar la dosis, mientras que el original exige que el médico indique el cambio."
+S180,NINGUNO,,,,,
+S180,NOSIMP,,"Siga exactamente las instrucciones de administración de este medicamento indicadas por su médico. Consulte a su médico o farmacéutico, si tiene dudas.","Siga exactamente las instrucciones de administración de este medicamento indicadas por su médico. Consulte a su médico o farmacéutico, si tiene dudas.",,La salida reproduce íntegramente el original.
+S180,TEC,,vía oftálmica,vía oftálmica,,"Conserva el tecnicismo sin explicarlo, igual que el original."
+S182,NINGUNO,,,,,
+S182,NOSIMP,,,"Elixifilin contiene sacarosa, etanol y amaranto (E123)
+Este medicamento contiene sacarosa. Si su médico le ha indicado que padece una intolerancia a ciertos azúcares, consulte con él antes de tomar este medicamento.
+Puede producir caries.
+Este medicamento",,La salida reproduce literalmente el original.
+S182,TEC,,,sacarosa,,"Conserva este tecnicismo sin explicarlo, como en el original."
+S184,DIR,OMI,y estable,,1,Se pierde la indicación de adoptar una posición estable.
+S184,DIR,OMI,u otras superficies,,2,"La prohibición de contacto del gotero deja de incluir otras superficies, con posible uso de un gotero contaminado."
+S184,DIR,OMI,inmediatamente después del uso,,1,"Indica cerrar después del uso, pero omite hacerlo inmediatamente."
+S185,NUM,SUS,una dosis doble,dos pastillas juntas,2,Equipara una dosis doble a dos pastillas juntas sin que el original establezca cuántas unidades constituyen una dosis ni esa forma farmacéutica.
+S186,ADD,ADD,,Esto puede ser más grave,1,Se añade una afirmación de mayor gravedad donde el original solo indica que es importante en ese grupo.
+S186,OMI,OMI,del sistema nervioso,,1,Se omite la información que sitúa la miastenia gravis en el sistema nervioso.
+S186,TERM,SUS,insuficiencia renal,daño renal,2,Daño renal no identifica específicamente la insuficiencia renal descrita.
+S186,MOD-E,SUS,puede ser consecuencia de una reacción,se debe a una reacción,1,La posible causa alérgica se presenta como cierta.
+S186,NUM,SUS,a las pocas horas,poco después,1,Se pierde la referencia temporal explícita a las horas.
+S186,FREC,OMI,Frecuencia no conocida (no puede estimarse a partir de los datos disponibles),,2,Desaparece la categoría y se reúne información sobre efectos graves y leves en una lista sin frecuencia.
+S186,TEC,,shock de tipo anafiláctico,shock anafiláctico,,Se conserva el tecnicismo anafiláctico sin explicar su significado.
+S191,DIR,SUS,Incline la cabeza hacia atrás.,Inclínese hacia atrás,1,"La instrucción de inclinar la cabeza se convierte en inclinarse hacia atrás, sin especificar la cabeza."
+S191,DIR,OMI,"el párpado, las áreas circundantes u otras superficies",,2,"Solo se mantiene evitar el contacto con el ojo; desaparece la prohibición de tocar el párpado, el entorno y otras superficies con el gotero."
+S194,NINGUNO,,,,,
+S194,NOSIMP,,"Una reacción alérgica que suele reaparecer en el mismo lugar o lugares al volver a exponerse al medicamento y que puede incluir manchas redondas u ovaladas de enrojecimiento e hinchazón de la piel, ampollas y picazón (erupción fija por medicamentos). También","Una reacción alérgica que suele reaparecer en el mismo lugar o lugares al volver a exponerse al medicamento y que puede incluir manchas redondas u ovaladas de enrojecimiento e hinchazón de la piel, ampollas y picazón (erupción fija por medicamentos). También",,La salida reproduce casi literalmente el original.
+S197,MOD-E,SUS,suele reaparecer,puede volver a aparecer,1,La reaparición habitual se convierte en una mera posibilidad.
+S197,COND,SUS,en el mismo lugar o lugares,en el mismo lugar o en otros lugares,1,Se añade la reaparición en zonas diferentes a las afectadas previamente.
+S197,TERM,SUS,ovaladas,alargadas,1,Una forma alargada no especifica necesariamente la forma ovalada del original.
+S207,NINGUNO,,,,,
+S207,NOSIMP,,,"Advertencias y precauciones
+Consulte a su médico o farmacéutico antes de empezar a usar Kentera, si usted padece cualquiera de lo siguiente.
+- Problemas hepáticos
+- Problemas renales
+- Dificultad para orinar
+- Obstrucción intestinal
+- Presencia de sangre en",,La salida reproduce literalmente el original.
+S207,TEC,,,Problemas hepáticos,,"Conserva este tecnicismo sin explicarlo, como en el original."
+S216,TERM,SUS,insuficiencia renal,un problema renal más grave,2,La expresión genérica no identifica la insuficiencia renal descrita en el original.
+S216,OMI,OMI,que puede ser consecuencia de una reacción en el riñón de tipo alérgico denominada nefritis intersticial,,1,Se omite la posible causa alérgica del problema renal y su denominación.
+S216,OMI,OMI,claramente delimitadas,,1,Se pierde la delimitación de las manchas como característica para reconocerlas.
+S216,NUM,SUS,a las pocas horas,poco después,1,Se pierde la referencia temporal explícita a las horas.
+S216,ENT,OMI,levofloxacino,,1,Se omite el nombre del medicamento al que el original vincula la reacción cutánea.
+S216,OMI,OMI,se curan con hiperpigmentación residual postinflamatoria,,1,Se omite que la curación deja una pigmentación más oscura.
+S216,OMI,OMI,en el mismo sitio,,1,No se indica que las manchas reaparecen en el mismo sitio.
+S216,ENT,OMI,la membrana mucosa,,1,Se omite la mucosa como lugar de aparición de las manchas.
+S216,MOD-E,SUS,"por lo general, se repite",pueden volver a aparecer,1,La reaparición habitual se convierte en una mera posibilidad.
+S216,FREC,SUS,Frecuencia no conocida (no puede estimarse a partir de los datos disponibles),"Es posible que estos efectos sean poco comunes, pero no se sabe con certeza por la información disponible.",2,Se introduce una posible baja frecuencia no sustentada y queda ambiguo a qué lista se refiere «estos efectos».
+S216,OMI,OMI,debido al daño en los glóbulos rojos,,1,Se omite la explicación del daño en los glóbulos rojos.
+S216,ENT,SUS,La médula ósea,El cuerpo,1,Se sustituye el órgano afectado por una referencia general al cuerpo.
+S216,TERM,SUS,deja de producir nuevas células sanguíneas,podría tener problemas para producir nuevas células sanguíneas,2,"El cese de la producción se reduce a problemas de producción, ocultando la magnitud del efecto."
+S216,TERM,SUS,hemorragia incontrolada,sangrado,2,"Se pierde el carácter incontrolado del sangrado, relevante para reconocer la gravedad del efecto."
+S216,OMI,OMI,persistente,,1,Se omite que el malestar general persiste.
+S216,TERM,SUS,"Cambios en el olfato, pérdida de olfato o gusto",cambios en el olfato o el gusto,1,Se omite la pérdida del olfato o del gusto como posibilidad específica.
+S216,TERM,SUS,inflamación de los ojos,problemas en los ojos,1,La inflamación se sustituye por una expresión inespecífica.
+S216,TERM,SUS,Problemas o pérdida de oído,problemas de oído,2,Se omite la posibilidad de pérdida de audición dentro de una expresión genérica.
+S218,NINGUNO,,,,,
+S218,NOSIMP,,,"Advertencias y precauciones
+Consulte a su médico o farmacéutico antes de empezar a usar Hyalgan.
+- Si se observa derrame articular (inflamación de la rodilla), su médico deberá extraerlo antes de inyectar este medicamento.
+- Si se determinan posibles signos",,La salida reproduce literalmente el original.
+S218,TEC,,,sales de amonio cuaternario,,"Conserva este tecnicismo sin explicarlo, como en el original."
+S219,NINGUNO,,,,,
+S219,TEC,,,obstrucción en el intestino,,Mantiene obstrucción sin explicar que se trata de un bloqueo.
+S220,TERM,SUS,AINEs (antiinflamatorios no esteroideos),medicamentos antiinflamatorios,2,Elimina la distinción de no esteroideos en las pautas de tratamiento y prevención de úlceras.
+S220,OMI,OMI,Tratamiento de las úlceras causadas por la infección por Helicobacter pylori y prevención de su reaparición:,,1,"En la pauta general de 20 mg dos veces al día, omite la finalidad de prevenir la reaparición de las úlceras; sí la conserva en el apartado pediátrico."
+S220,ENT,OMI,"amoxicilina, claritromicina y metronidazol",,2,Omite la lista concreta de la que se seleccionan los dos antibióticos en la pauta general.
+S220,DIR,OMI,decidirá además durante cuánto tiempo tiene que tomar el medicamento,,2,"En la pauta por tumor pancreático, conserva el ajuste de dosis pero omite que el médico determinará la duración del tratamiento."
+S220,COND,ADD,,y edad,1,Añade la edad como criterio de cálculo de la dosis pediátrica; el original la utiliza como umbral de uso y calcula la dosis según el peso.
+S220,ENT,OMI,amoxicilina y claritromicina,,2,Omite cuáles son los dos antibióticos de la pauta pediátrica.
+S220,TEC,,duodeno,duodeno,,"Conserva duodeno sin explicarlo, igual que el original."
+S222,OMI,OMI,inflamación de la rodilla,,1,"Conserva derrame articular en la rodilla, pero omite la explicación del original como inflamación."
+S222,MOD-D,SUS,En pacientes con infección o alteraciones en la piel en las zonas próximas al punto de inyección.,"Si tiene una infección o problemas en la piel cerca del lugar de inyección, no debe usar este medicamento.",1,Convierte una situación que debe consultarse antes del uso en una prohibición absoluta de usar el medicamento.
+S222,MOD-D,SUS,No se recomienda utilizar este medicamento con desinfectantes que contengan sales de amonio cuaternario.,No use este medicamento con productos desinfectantes que contengan sales de amonio cuaternario.,1,Refuerza no se recomienda hasta una prohibición; caso límite de la guía.
+S222,DIR,SUS,Evitar la sobrecarga de la articulación tratada,evite hacer movimientos bruscos o excesivos en la articulación tratada,1,Sustituye el criterio de sobrecarga por la brusquedad o el exceso de movimiento.
+S222,COND,SUS,inmeditamente después del tratamiento,Después de la inyección,1,Se pierde la precisión de que evitar la sobrecarga afecta al momento inmediatamente posterior al tratamiento.
+S222,TERM,SUS,condiciones asépticas,condiciones limpias,2,La limpieza o el cuidado genéricos no conservan la exigencia de condiciones asépticas para la inyección. Duda entre 1 y 2: podría aceptarse una técnica de administración insuficiente.
+S222,TEC,,,sales de amonio cuaternario,,"Conserva este tecnicismo sin explicarlo, como en el original."
+S237,OMI,OMI,(antiinflamatorios no esteroideos),,1,Suprime la explicación de la sigla AINEs que sí figuraba en el original.
+S237,DIR,OMI,"Su médico le indicará además que tome dos antibióticos de los siguientes: amoxicilina, claritromicina y metronidazol.",,2,Omite la instrucción de combinar omeprazol con dos antibióticos en la pauta general; la única instrucción de antibióticos que conserva se refiere a su hijo.
+S237,DIR,OMI,decidirá además durante cuánto tiempo tiene que tomar el medicamento,,2,Omite que el médico determinará la duración del tratamiento por exceso de ácido debido a tumor pancreático.
+S237,COND,OMI,"Tratamiento de los síntomas de la ERGE, como ardor y regurgitación ácida",,2,La autorización para mayores de un año y más de 10 kg pierde la indicación concreta de síntomas de ERGE.
+S237,DIR,ADD,,No tome omeprazol si está embarazada o amamantando sin consultar a su médico.,2,Añade una restricción de uso y consulta por embarazo o lactancia que no aparece en el pasaje original.
+S237,COND,ADD,,No tome omeprazol si tiene menos de 1 año de edad o pesa menos de 10 kg.,2,"Convierte los umbrales de una indicación pediátrica concreta en una prohibición general de uso, no formulada en el original."
+S237,DIR,ADD,,No tome omeprazol si tiene problemas de función renal o hepática sin consultar a su médico.,2,Añade una restricción de uso y consulta por problemas renales o hepáticos que no aparece en el pasaje original.
+S237,DIR,ADD,,No tome omeprazol si está tomando otros medicamentos que puedan interactuar con omeprazol sin consultar a su médico.,2,Añade una restricción de uso y consulta por otros medicamentos que no aparece en el pasaje original.
+S237,TEC,,duodeno,duodeno,,"Conserva duodeno sin explicarlo, igual que el original."
+S240,ENT,OMI,oxibutinina,,1,Se omite el nombre oxibutinina que identifica el tratamiento en el original.

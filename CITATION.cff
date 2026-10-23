@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+message: "Si utiliza estos materiales, cítelos así."
+title: "Errores de contenido en prospectos reescritos en lenguaje claro con modelos generativos abiertos: datos y código"
+type: dataset
+authors:
+  - family-names: "Hernández Pardo"
+    given-names: "Blanca"
+    affiliation: "Universidad Pontificia Comillas"
+    orcid: "https://orcid.org/0000-0001-9005-7577"
+license: CC-BY-4.0
+repository-code: "https://github.com/blancahpardo/prospectos-lenguaje-claro"

@@ -1,0 +1,9 @@
+{
+  "_nota": "Lista provisional. Se fija el lunes según la memoria de la GPU del ordenador Windows. 'think': false desactiva el modo de razonamiento en los modelos que lo tienen.",
+  "modelos": [
+    {"nombre": "hdnh2006/salamandra-7b-instruct"},
+    {"nombre": "llama3.1:8b"},
+    {"nombre": "qwen3:8b", "think": false},
+    {"nombre": "gemma3:12b"}
+  ]
+}
