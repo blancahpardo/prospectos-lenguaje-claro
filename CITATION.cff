@@ -9,3 +9,10 @@ authors:
     orcid: "https://orcid.org/0000-0001-9005-7577"
 license: CC-BY-4.0
 repository-code: "https://github.com/blancahpardo/prospectos-lenguaje-claro"
+version: "v1.0.0"
+date-released: "2026-10-23"
+doi: "10.5281/zenodo.23604857"
+identifiers:
+  - type: doi
+    value: "10.5281/zenodo.23604856"
+    description: "DOI de todas las versiones"

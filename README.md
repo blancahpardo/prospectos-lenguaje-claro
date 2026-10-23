@@ -1,5 +1,7 @@
 # Errores de contenido en prospectos reescritos en lenguaje claro con modelos generativos abiertos (datos y código)
 
+[![DOI](https://zenodo.org/badge/1431548374.svg)](https://doi.org/10.5281/zenodo.23604856)
+
 Autora: Blanca Hernández Pardo (Universidad Pontificia Comillas, Madrid; ORCID [0000-0001-9005-7577](https://orcid.org/0000-0001-9005-7577)).
 
 Materiales del artículo «Errores de contenido en prospectos reescritos en lenguaje claro con modelos generativos abiertos».
@@ -25,4 +27,6 @@ Los prospectos proceden del Centro de Información online de Medicamentos (CIMA)
 Código: licencia MIT. Anotaciones y salidas: CC BY 4.0.
 
 ## Cómo citar
-Hernández Pardo, B. (2026). *Errores de contenido en prospectos reescritos en lenguaje claro con modelos generativos abiertos: datos y código* [Conjunto de datos y software]. Zenodo. (El DOI se añadirá al publicar la primera versión).
+Hernández Pardo, B. (2026). *Errores de contenido en prospectos reescritos en lenguaje claro con modelos generativos abiertos: datos y código* (Versión v1.0.0) [Conjunto de datos y software]. Zenodo. https://doi.org/10.5281/zenodo.23604857
+
+DOI de todas las versiones (apunta siempre a la última): https://doi.org/10.5281/zenodo.23604856
